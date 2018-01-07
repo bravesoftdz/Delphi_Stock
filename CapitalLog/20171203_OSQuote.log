@@ -1,0 +1,58 @@
+-----------------------------------------------------------------
+[4032] 2017/12/03 11:45:04.106 Connect Server: FORT14.capital.com.tw 443
+[4032] 2017/12/03 11:45:05.185 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[4032] 2017/12/03 11:45:06.221 OnConnect ( 3001 , 0 ) 
+[4032] 2017/12/03 11:45:10.789 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[4032] 2017/12/03 11:45:12.664 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[4032] 2017/12/03 11:45:32.906 SKOSQuoteLib_RequestKLine (TX00,0)
+[4032] 2017/12/03 11:45:32.906 KLine Format Error !
+[4032] 2017/12/03 11:45:33.045 SKOSQuoteLib_RequestKLine (TX00,1)
+[4032] 2017/12/03 11:45:33.046 KLine Format Error !
+[15096] 2017/12/03 12:31:00.686 Connect Server: FORT03.capital.com.tw 443
+[15096] 2017/12/03 12:31:01.263 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[15096] 2017/12/03 12:31:02.188 OnConnect ( 3001 , 0 ) 
+[15096] 2017/12/03 12:31:08.623 SKOSQuoteLib_RequestKLine (TX00,0)
+[15096] 2017/12/03 12:31:08.623 KLine Format Error !
+[15096] 2017/12/03 12:31:08.732 SKOSQuoteLib_RequestKLine (TX00,1)
+[15096] 2017/12/03 12:31:08.732 KLine Format Error !
+[15096] 2017/12/03 12:34:35.102 SK_SUBJECT_CONNECTION_DISCONNECT¡ACode: 10054
+[15096] 2017/12/03 12:42:15.152 OnConnect ( 3002 , 10054 ) 
+[15096] 2017/12/03 12:51:08.811 -----------------------------------------------------------------
+[1764] 2017/12/03 12:52:22.599 Connect Server: FORT14.capital.com.tw 443
+[1764] 2017/12/03 12:52:23.238 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[1764] 2017/12/03 12:52:24.168 OnConnect ( 3001 , 0 ) 
+[1764] 2017/12/03 12:52:28.475 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[1764] 2017/12/03 12:52:30.183 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[1764] 2017/12/03 12:52:31.027 SKOSQuoteLib_RequestStocks (0,CME,ES_1712)
+[1764] 2017/12/03 12:52:31.031 SKOSQuoteLib_RequestTicks (1,CME,ES_1712)
+[1764] 2017/12/03 12:53:09.664 -----------------------------------------------------------------
+[6996] 2017/12/03 12:53:19.609 Connect Server: FORT14.capital.com.tw 443
+[6996] 2017/12/03 12:53:20.142 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[6996] 2017/12/03 12:53:21.125 OnConnect ( 3001 , 0 ) 
+[6996] 2017/12/03 12:53:25.258 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[6996] 2017/12/03 12:53:28.392 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[6996] 2017/12/03 12:53:29.753 SKOSQuoteLib_RequestStocks (0,CME,ES_1712)
+[6996] 2017/12/03 12:53:29.756 SKOSQuoteLib_RequestTicks (1,CME,ES_1712)
+[6996] 2017/12/03 12:54:09.274 -----------------------------------------------------------------
+[11436] 2017/12/03 12:54:20.241 Connect Server: FORT03.capital.com.tw 443
+[11436] 2017/12/03 12:54:20.863 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[11436] 2017/12/03 12:54:21.795 OnConnect ( 3001 , 0 ) 
+[11436] 2017/12/03 12:54:26.038 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[11436] 2017/12/03 12:54:27.840 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[11436] 2017/12/03 12:54:29.950 SKOSQuoteLib_RequestStocks (0,TX00)
+[11436] 2017/12/03 12:54:29.950 TX00 StockNo Format Error 
+[11436] 2017/12/03 12:54:29.953 SKOSQuoteLib_RequestTicks (0,TX00)
+[11436] 2017/12/03 12:54:29.953 StockNo Format Error 
+[11436] 2017/12/03 12:55:00.428 -----------------------------------------------------------------
+[3692] 2017/12/03 12:55:10.273 Connect Server: FORT14.capital.com.tw 443
+[3692] 2017/12/03 12:55:10.795 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[3692] 2017/12/03 12:55:11.769 OnConnect ( 3001 , 0 ) 
+[3692] 2017/12/03 12:55:17.974 SKOSQuoteLib_RequestKLine (TX00,0)
+[3692] 2017/12/03 12:55:17.974 KLine Format Error !
+[3692] 2017/12/03 12:55:18.088 SKOSQuoteLib_RequestKLine (TX00,1)
+[3692] 2017/12/03 12:55:18.088 KLine Format Error !
+[3692] 2017/12/03 12:55:20.395 SKOSQuoteLib_RequestStocks (0,TX00)
+[3692] 2017/12/03 12:55:20.395 TX00 StockNo Format Error 
+[3692] 2017/12/03 12:55:20.399 SKOSQuoteLib_RequestTicks (0,TX00)
+[3692] 2017/12/03 12:55:20.399 StockNo Format Error 
+[3692] 2017/12/03 12:56:10.046 -----------------------------------------------------------------

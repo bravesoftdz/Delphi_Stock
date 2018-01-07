@@ -1,0 +1,18 @@
+-----------------------------------------------------------------
+[12428] 2017/12/21 22:41:31.413 ERROR: Initialization is not complete, you should call Initialize() first
+[12428] 2017/12/21 22:41:31.414 ERROR: Initialization is not complete, you should call Initialize() first
+[12428] 2017/12/21 22:41:34.686 GetOverseaCount( )
+[8160] 2017/12/21 22:45:50.518 ERROR: Initialization is not complete, you should call Initialize() first
+[5340] 2017/12/21 22:47:11.057 ERROR: Initialization is not complete, you should call Initialize() first
+[5272] 2017/12/21 22:53:59.309 CALL SKOrderLib_ReadCertByID(A122689579)
+[5272] 2017/12/21 22:53:59.943 OrderSendSign result:0
+[5272] 2017/12/21 22:54:03.143 GetOverseaCount( )
+[5272] 2017/12/21 22:55:30.683 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:CME,ES_1803 YearMonth:201712 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:2684.75 OrderNumerator:2684.75 Trigger:2684.75 TriggerNumerator:2684.75 
+[7608] 2017/12/21 22:57:29.571 CALL SKOrderLib_ReadCertByID(A122689579)
+[7608] 2017/12/21 22:57:30.099 OrderSendSign result:0
+[7608] 2017/12/21 22:57:33.210 GetOverseaCount( )
+[7608] 2017/12/21 22:58:15.674 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:CME,ES_1803 YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:2686 OrderNumerator:2686 Trigger:2686 TriggerNumerator:2686 
+[12972] 2017/12/21 22:59:30.573 CALL SKOrderLib_ReadCertByID(A122689579)
+[12972] 2017/12/21 22:59:30.910 OrderSendSign result:0
+[12972] 2017/12/21 22:59:34.000 GetOverseaCount( )
+[12972] 2017/12/21 22:59:55.780 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES_1803 YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:0 OrderNumerator:0 Trigger:0 TriggerNumerator:0 

@@ -1,0 +1,117 @@
+unit DataParsing;
+
+interface
+
+uses Classes, SysUtils, StrUtils, ComCtrls, Dialogs;
+
+procedure TradeReportParsing(DataStr: String);
+procedure RealReport(DataStr: String; TypeNM: String= 'Interest');
+procedure ShowInterestStock();
+procedure GetAccount_Error(bstrReport: String; ErrorCode: Integer);
+
+implementation
+
+uses ChungYi_Main, Public_Variant, String_Form, SQLFunc, Stock_OptionOrder;
+
+procedure GetAccount_Error(bstrReport: String; ErrorCode: Integer);
+begin
+// ShowMessage(bstrReport + ', ' + IntToStr(ErrorCode));
+end;
+
+procedure TradeReportParsing(DataStr: String);
+var DataList, SendList: TStringList;
+    ListItem : TListItem;
+    StockPrice: String;
+begin
+ if TriggerInternal= True then
+ begin
+  TradePrice:= '';
+  DataList:= TStringList.Create;
+  SendList:= TStringList.Create;
+  DataList.Add(DataStr);
+
+  ListItem := fmChungYi.ListView3.Items.Item[fmChungYi.ListView3.Items.Count - 1];
+  if Copy(DataList.Text, 16, 1)='D' then // 成交
+  begin
+   StockPrice:= Copy(DataList.Text, 80, 6); // 取得成交價
+   // 寫入價格
+   fmChungYi.ListView3.Items[fmChungYi.ListView3.Items.Count - 1].SubItems.Strings[4]:=
+    StockPrice;
+   // 寫入資料庫
+   SQLFunc.InsertData(ListItem);
+   TriggerInternal:= False;
+  end;
+
+  if (Copy(DataList.Text, 17, 1)= 'T') or (Copy(DataList.Text, 17, 1)= 'Y') then // 成交失敗
+  begin
+   fmChungYi.ListView3.Items[fmChungYi.ListView3.Items.Count - 1].SubItems.Strings[7]:=
+     '成交失敗 ' + fmChungYi.ListView3.Items[fmChungYi.ListView3.Items.Count - 1].SubItems.Strings[7]; // 失敗訊息
+   // 寫入資料庫
+   SQLFunc.InsertData(ListItem);
+   // 重新下單
+   if not AnsiContainsStr(fmChungYi.ListView3.Items[fmChungYi.ListView3.Items.Count - 1].SubItems.Strings[7], '保證金不足') then
+   begin
+    fmChungYi.lbFail.Visible:= True;
+    fmChungYi.BackupBuyTimer.Enabled:= True;;
+   end;
+   TriggerInternal:= False;
+  end;
+//  DataList.SaveToFile('回報資料.txt');
+
+  GetOpenInterest(PAnsiChar(AnsiString(FutureAccount)));
+  if Assigned(DataList) then FreeAndNil(DataList);
+  if Assigned(SendList) then FreeAndNil(SendList);
+ end;
+end;
+
+procedure RealReport(DataStr: String; TypeNM: String= 'Interest');
+begin
+ if TypeNM= 'Stock' then
+  if Copy(DataStr, 1, 2) <> '##' then
+   BalanceList.Add(DataStr)
+  else begin
+  // BalanceList.SaveToFile('StockList.Txt');
+   BalanceList.Clear;
+  end;
+
+ if TypeNM= 'Interest' then
+ begin
+  if Copy(DataStr, 1, 2) <> '##' then
+   BalanceList.Add(DataStr)
+  else begin
+  // BalanceList.SaveToFile('InterestList.Txt');
+  // if not AnsiContainsStr(BalanceList.Text, 'NO DATA') then
+   ShowInterestStock();
+   BalanceList.Clear;
+  end;
+  fmChungYi.tsOpenInterest.Caption:= '未平倉內容 (' + IntToStr(fmChungYi.ListV_Interest.Items.Count) + ')';
+ end;
+end;
+
+procedure ShowInterestStock();
+var Titem, ListItem: Tlistitem;
+    I: Integer;
+begin
+  fmChungYi.ListV_Interest.Clear;
+  if not AnsiContainsStr(BalanceList.Text, 'NO DATA') then  // 若有資料
+   for I := 0 to BalanceList.Count - 1 do
+   begin
+    OrderList.Add(fmChungYi.edtPrice.Text); // 有資料時, 才列入正式 OrderList
+    TempList.Text:= BalanceList.Strings[I];
+    TempList.StrictDelimiter:= True;
+    TempList.Delimiter:= ',';
+    TempList.DelimitedText:= TempList.Text;
+
+    Titem := fmChungYi.ListV_Interest.Items.add;
+    Titem.Caption := TempList.Strings[1];  // 帳號
+    Titem.SubItems.Add(TempList.Strings[2]);  // 商品
+    Titem.SubItems.Add(TempList.Strings[3]);  // 買賣別
+    Titem.SubItems.Add(TempList.Strings[4]);  // 未平倉部位
+    Titem.SubItems.Add(TempList.Strings[6]);  // 平均成本
+
+    NowBuySell:= fmChungYi.ListV_Interest.Items[0].SubItems.strings[1]; // 記錄目前 B or S
+    TempList.Clear;
+   end;
+
+end;
+end.

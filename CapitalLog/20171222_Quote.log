@@ -1,0 +1,14 @@
+-----------------------------------------------------------------
+[11324] 2017/12/22 09:13:58.836 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[11324] 2017/12/22 09:14:00.338 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[11324] 2017/12/22 09:14:02.323  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[11324] 2017/12/22 09:17:17.119 -----------------------------------------------------------------
+[13572] 2017/12/22 10:38:22.613 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[13572] 2017/12/22 10:38:24.151 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[13572] 2017/12/22 10:38:26.074  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[14312] 2017/12/22 12:06:49.857 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[14312] 2017/12/22 12:06:51.356 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[14312] 2017/12/22 12:06:53.285  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[4136] 2017/12/22 12:08:15.215 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[4136] 2017/12/22 12:08:16.875 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[4136] 2017/12/22 12:08:18.694  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )

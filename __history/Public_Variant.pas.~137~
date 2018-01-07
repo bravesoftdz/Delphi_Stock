@@ -1,0 +1,202 @@
+unit Public_Variant;
+
+interface
+
+uses Classes, Quote_uSKQ;
+
+const SKQLib = 'SKQuoteLib.dll';
+
+const SK_SUCCESS : Integer                             = 0;
+const SK_FAIL : Integer                                = -1;
+const SK_ERROR_INITIALIZE_FAIL	: Integer               = -4;
+const SK_ERROR_OVERSEA_ACCOUNT_NOT_EXIST : Integer     = -2;
+const SK_ERROR_ACCOUNT_NOT_EXIST : Integer             = 1001;
+const SK_ERROR_ACCOUNT_MARKET_NOT_MATCH : Integer      = 1002;
+const SK_ERROR_PERIOD_OUT_OF_RANGE	: Integer           = 1003;
+const SK_ERROR_FLAG_OUT_OF_RANGE : Integer             = 1004;
+const SK_ERROR_BUYSELL_OUT_OF_RANGE : Integer          = 1005;
+const SK_ERROR_ORDER_SERVER_INVALID : Integer          = 1006;
+const SK_ERROR_PERMISSION_DENIED : Integer             = 1007;
+const SK_ERROR_TRADE_TYPR_OUT_OF_RANGE	: Integer       = 1008;
+const SK_ERROR_DAY_TRADE_OUT_OF_RANGE : Integer        = 1009;
+const SK_ERROR_ORDER_SIGN_INVALID : Integer            = 1010;
+const SK_ERROR_NEW_CLOSE_OUT_OF_RANGE : Integer        = 1011;
+const SK_ERROR_PRODUCT_INVALID	: Integer               = 1012;
+const SK_ERROR_QTY_INVALID	: Integer                   = 1013;
+const SK_ERROR_DAYTRADE_DENIED	: Integer               = 1014;
+const SK_ERROR_SPCIAL_TRADE_TYPE_INVALID : Integer     = 1015;
+const SK_ERROR_PRICE_INVALID : Integer                 = 1016;
+const SK_ERROR_INDEX_OUT_OF_RANGE : Integer            = 1017;
+const SK_ERROR_QUERY_IN_PROCESSING	: Integer           = 1018;
+const SK_ERROR_LOGIN_INVALID : Integer                 = 1019;
+const SK_ERROR_REGISTER_CALLBACK : Integer             = 1020;
+
+type  // 暫存值
+  TPointData = record
+    StockNO: String;
+    StockNM: String;
+    TradeDate: String;
+    TickTime: String;
+    P_Open: Extended;
+    P_Close: Extended;
+    P_Present: Extended;
+    P_Lowest: Extended;
+    P_Highest: Extended;
+    Q_Highest: Extended;
+    Q_Lowest: Extended;
+    Q_Present: Extended;
+  end;
+
+type  // 策略暫存值
+  TStrategy = record
+    UpDown: String; // 目前在上或下
+    B_HighU, B_HighD, B_LowU, B_LowD: Extended;
+    BreakPoint: Boolean;
+    Diff_C2, Diff_C5H, Diff_C5L: Extended;
+    A2_1_AveQty: Extended; //
+    A2_5_1B, A2_5_2B, A2_5_3B, A2_5_1S, A2_5_2S, A2_5_3S: Integer;
+    A4_3_High, A4_3_Low: Extended;
+    C1_Weight, C2_Weight, C3_Weight, C4_Weight, C5_Weight: Integer;
+    D1_Weight, D2_Weight, D3_Weight, D4_Weight, D5_Weight, D6_Weight, D6_1_Weight: Integer;
+    D1_AntiWeight, D5_AntiWeight, D6_1_AntiWeight: Integer;
+    C3_Out_Start, C3_In_Start: Boolean;
+    C3_Out_Count: Integer;
+    C3_In_Count: Integer;
+    C4_Count: Integer;
+    C4_High, C4_LastHigh, C4_Low: Extended;
+    C4_Continue: Boolean;
+    C_Order: Boolean;
+    // D1_K_Ave_High: 以 K 棒計算最高均值, D1_Ave_High: 均值當收最高
+    D1_K_Ave_High, D1_K_Ave_Low, D1_Ave_High, D1_Ave_Low: Extended;
+    // 以 K 棒計算最高值
+    D3_K_High, D3_K_Low, D4_K_High, D4_K_Low, D5_K_High, D5_K_Low: Extended;
+    // 以 K 棒計算成交量
+    D6_Total_Qty, D6A_Total_Qty: Extended;
+    E1_1_Weight, E1_2_Weight, E1_4_Weight, E1_3_Weight, E1_5_Weight: Integer;
+    E4_1_Weight, E4_2_Weight, E4_3_Weight, E4_4_Weight: Integer;
+    E_Profit, E_Buy, E_Sell: Extended;
+    E_1_4R, E_1_4G, E_1_5R, E_1_5G: Integer;
+    E3_Light, E11_Light, B2_Light, A2_1_Light, A11_Light, A13_Light, A14_Light: Integer;
+    RedQty, GreenQty: Integer;
+  end;
+
+type  // 傳遞執行緒參數
+  TStockPass = record
+    MarketNO: SmallInt;
+    StockNO: SmallInt;
+    iPtr: Integer;
+    FromQty: Integer;
+    ToQty: Integer;
+    TotalQty: Integer;
+    NowIndex: Integer;
+  end;
+
+var
+ SystemTime: Integer; // 系統時間
+ TradePrice: String; // 成交價
+ OpenInterestQty: Integer; // 控制下單後要取得未平倉內容幾次
+ TriggerInternal: Boolean; // 成交函數是否經由內部觸發, 控制 IE / 策略王下單觸發狀況
+ OpenStock: Boolean; // 是否開啟證券交易功能
+
+ GetResult: Boolean;
+ BalanceList: TStringList; // 儲存證券庫存
+ SetData, KLineSetData: TPointData;
+ sStrategy: TStrategy;
+
+ TempList: TStringList;
+ SQLStr, TickTime: String;
+ DateList: TStringList; //  擷取目前資料庫的日期序列
+ SQLList, AllSQLList, SubAllList: TStringList; // 儲存下載資料
+ AveList: TStringList; // 記錄每一 K 棒均值
+ HistoryKList: TStringList; // 歷史 K 線記錄 (日線)
+ MinuteQtyList: TStringList; // 記錄每一 K 棒成交量
+ HighList, LowList: TStringList; // 記錄每一 K 棒高低值
+ K_List: TStringList; // 記錄每一 K 棒值
+ K_OpenList, K_CloseList: TStringList; // 記錄每一 K 棒 open close 值
+ Last_K: Extended; // 最近一根 K 值
+ LastSN, LastIndexSN, FigureSN: Integer; // 記錄 traderecord, Indextable, 圖形的最後一筆序號
+ StopGate: Boolean; // 持續下載時, 先擋住後面送進來資料
+ TotalQty: Integer; // 目前總共下載筆數
+ OrderList: TStringList; // 記錄已交易資料
+ // K 線資料
+ // 目前時間 (分鐘)
+ CurrMin, Curr5Min, Curr10Min, Curr20Min: TTime;
+ AddStrTrue: Boolean;  // 是否存入資料 (搭配 CurrMin)
+ OpenP, CloseP: Extended; // 每分鐘開盤價, 收盤價
+ NowHigh: Extended= 0;
+ NowLow: Extended= 0;
+ FirstLow, FirstHigh: Extended; // 第一根K棒低點
+ MinuteQty: Integer= 0; // 每分鐘累積成交量
+ AveP, Ave5P, Ave10P, Ave20P: Extended; // 每分鐘均價
+ KLineGap: Integer; // 1, 3, 5 分線間隔
+
+ FirstTime: Boolean= True; // 是否為每次下載的第一次
+
+ OrderState: Boolean; // 是否為下單狀態
+ NowSecond: Integer= 0 ; // 記錄目前經過秒數 (策略用)
+ RunC_Strategy: Boolean;
+ Floated: Boolean; // 是否為盤整
+ LastHigh, LastLow: Extended; // 昨日最高/低價
+ LastDate: String; // 昨日日期
+ LastClose, LastOpen: Extended; // 昨日開收盤價
+ ThisOpen: Extended; // 今日開盤價
+ FloatOffSet: Integer; // 浮動狀態, 均線範圍加減點數
+ FloatHasAdd1, FloatHasAdd2, FloatHasAdd3: Integer; // 已加過的點數
+ A13HighReturn: Boolean; // 是否已達到要求值
+ A13LowReturn: Boolean;
+ A13High: Extended; // A13 達到高點時的值
+ A13Low: Extended= 0;
+ ThisLastHigh, ThisLastLow, ThisLastOpen: Extended; // 今日上一根K棒最高 / 低 / 開始值
+
+ FigureStr: String; // 記錄圖形的高低點區間
+ HourHigh, HourLow: Extended; // 每小時的高低點
+ HourHTime, HourLTime: String; // 每小時的高低點的時間
+ HasFigure: Boolean= False; // 是否已畫過
+
+ ThisTradeDate: String; // 當日交易日期
+ PrepareData: Boolean; // 是否處理之前下載資料
+ LastMinute: Boolean; // 最後一秒抓取資料的判讀
+ LastTime: Boolean= True; // 判斷 13:44:00 時間點只能執行一次
+
+ A2Pass: Boolean= True; // 訊確 A2 是否成立
+ B5: TBest5;
+ A2_BestBuyQty, A2_BestSellQty: Extended;
+ A2_5Open, A2_5Close: Extended;
+ D7_True: boolean= False;
+ BuyOK: Boolean= True; // 搭配 A2_5Open, A2_5Close
+ SellOK: Boolean= True; // 搭配 A2_5Open, A2_5Close
+ A4Max, A4Min, A4_2Max, A4_2Min, OffSet_MaxMin: Extended; //
+ A4TimePass: Boolean= True;
+ A4_3Floated: Boolean= False; // 判斷 A4_3 高低k差模組
+ A4_2Float: Boolean= False; // 判斷 A4_2 高低k差模組
+ A4_Weight1: Integer= 0;
+ A4_Weight2: Integer= 0;
+ A4_Weight3: Integer= 0;
+ A4_Weight4: Integer= 0;
+ A4_Weight5: Integer= 0;
+ BreakLoop: Boolean= False; // 如果前面已下單, 下面全部直接跳離
+ A4_1TimeGate: TTime= 0; //  取得可下單的時間
+
+ Ave5P_4Total, Ave10P_4Total, Ave20P_4Total: Integer;
+ NowBuySell: String; // 目前是買或賣
+ OrderParamList: TStringList;
+ StartOrder: Boolean= False; // 判斷是否K穿均
+ UpDown: String;
+ InsideHighLow: Boolean; // B1 策略, 開盤點是否在高低範圍內
+ OutsideUpDown: String;
+ B_Order: Integer= 0; // 在 B 策略下下單的次數, 不可大於 2
+ B_OrderOK: Boolean= False; // B2 / B3 已下單, 此時可下反反單
+ LastInventory: Boolean; //昨日是否留倉
+ LastCost: Extended; // 留倉成本
+ HasDone: Boolean= False; // 是否已點擊下載
+
+ PhotoTime: TTime= 0; // 圖形資料庫整點擷取時間
+ A13_14_Open: boolean= True; // A13, A14 平倉後, 需下一根 A4 才可進單
+
+ Temp: String;
+ TempFloat: Extended;
+
+ Temp1, Temp2, Temp3, Temp4: String;
+implementation
+
+end.

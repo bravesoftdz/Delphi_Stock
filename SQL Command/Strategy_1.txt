@@ -1,0 +1,7 @@
+select * from IndexTable where TradeDate='2012/05/04' order by TradeQty Desc limit 4;
+select Red, count(Red) from IndexTable where TradeDate='2012/05/04' group by Red;
+
+
+select Red, Sum(TradeQty), count(Red) from (select * from IndexTable where TradeDate='2012/05/04' order by TradeQty Desc limit 4) where TradeDate='2012/05/04' group by Red;
+
+select Red, Sum(TradeQty) from (select * from IndexTable where TradeDate='2012/05/04') where TradeDate='2012/05/04' group by Red;

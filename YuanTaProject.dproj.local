@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/03/15 15:02:59.703.pas,C:\Documents and Settings\Steven\My Documents\RAD Studio\Projects\Unit1.pas=D:\Delphi\元大期貨\YuanTa_Delphi\YuanTa_Main.pas</Transaction>
+    <Transaction>2012/03/15 15:02:59.703.dfm,C:\Documents and Settings\Steven\My Documents\RAD Studio\Projects\Unit1.dfm=D:\Delphi\元大期貨\YuanTa_Delphi\YuanTa_Main.dfm</Transaction>
+    <Transaction>2012/03/15 15:03:06.078.dproj,C:\Documents and Settings\Steven\My Documents\RAD Studio\Projects\Project2.dproj=D:\Delphi\元大期貨\YuanTa_Delphi\YuanTaProject.dproj</Transaction>
+    <Transaction>2012/03/20 00:20:10.234.pas,D:\Delphi\Functions\Captal_API\InitialAPI.pas=</Transaction>
+    <Transaction>2012/03/22 10:07:14.687.pas,D:\Delphi\YuanTa_Future\YuanTa_Delphi\Unit1.pas=D:\Delphi\YuanTa_Future\YuanTa_Delphi\Strategy.pas</Transaction>
+    <Transaction>2012/04/13 11:39:18.468.pas,D:\Delphi\YuanTa_Future\YuanTa_Delphi\Unit1.pas=D:\Delphi\Functions\StringList_Fun.pas</Transaction>
+    <Transaction>2012/04/14 13:06:26.750.pas,D:\Delphi\YuanTa_Future\YuanTa_Delphi\YuanTa_Main.pas=D:\Delphi\YuanTa_Future\YuanTa_Delphi\ChungYi_Main.pas</Transaction>
+    <Transaction>2012/04/14 13:06:26.750.dfm,D:\Delphi\YuanTa_Future\YuanTa_Delphi\YuanTa_Main.dfm=D:\Delphi\YuanTa_Future\YuanTa_Delphi\ChungYi_Main.dfm</Transaction>
+    <Transaction>2012/04/14 15:55:32.000.pas,D:\Delphi\YuanTa_Future\YuanTa_Delphi\SQLFunc.pas=</Transaction>
+    <Transaction>2012/04/29 08:11:51.718.pas,D:\Delphi\YuanTa_Future\YuanTa_Delphi\Unit1.pas=D:\Delphi\Functions\GetTradeDate.pas</Transaction>
+    <Transaction>2012/04/29 08:11:51.718.dfm,D:\Delphi\YuanTa_Future\YuanTa_Delphi\Unit1.dfm=D:\Delphi\Functions\GetTradeDate.dfm</Transaction>
+    <Transaction>2012/04/29 09:36:41.453.pas,D:\Delphi\Functions\GetTradeDate.pas=</Transaction>
+    <Transaction>2012/04/29 09:36:41.453.dfm,D:\Delphi\Functions\GetTradeDate.dfm=</Transaction>
+    <Transaction>2017/10/08 13:29:23.145.pas,E:\Delphi\sqlite2010\sqlite2009\AMDSqlite3.pas=</Transaction>
+    <Transaction>2017/10/08 13:29:23.145.dfm,E:\Delphi\sqlite2010\sqlite2009\AMDSqlite3.dfm=</Transaction>
+    <Transaction>2017/12/12 09:31:46.218.pas,E:\Delphi\Delphi\YuanTa_Future\YuanTa_Delphi_Official\Unit1.pas=E:\Delphi\Delphi\YuanTa_Future\YuanTa_Delphi_Official\StockHandle\StockHandle.pas</Transaction>
+    <Transaction>2017/12/14 23:32:03.987.pas,E:\Delphi\Delphi\YuanTa_Future\YuanTa_Delphi_Official\Unit1.pas=E:\Delphi\Delphi\YuanTa_Future\YuanTa_Delphi_Official\OverseaOrder\OverSeasOrder.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,2 @@
+.separator ","
+.import AllTXF00Data_TX00.Txt TradeRecord

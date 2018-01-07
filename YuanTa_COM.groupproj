@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{BE5B8858-6189-4E5F-9C63-3FF300EB178B}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="YuanTaProject.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="C:\Users\Steven\Documents\RAD Studio\Projects\SKCOM_package.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="YuanTaProject">
+			<MSBuild Projects="YuanTaProject.dproj"/>
+		</Target>
+		<Target Name="YuanTaProject:Clean">
+			<MSBuild Targets="Clean" Projects="YuanTaProject.dproj"/>
+		</Target>
+		<Target Name="YuanTaProject:Make">
+			<MSBuild Targets="Make" Projects="YuanTaProject.dproj"/>
+		</Target>
+		<Target Name="SKCOM_package">
+			<MSBuild Projects="C:\Users\Steven\Documents\RAD Studio\Projects\SKCOM_package.dproj"/>
+		</Target>
+		<Target Name="SKCOM_package:Clean">
+			<MSBuild Targets="Clean" Projects="C:\Users\Steven\Documents\RAD Studio\Projects\SKCOM_package.dproj"/>
+		</Target>
+		<Target Name="SKCOM_package:Make">
+			<MSBuild Targets="Make" Projects="C:\Users\Steven\Documents\RAD Studio\Projects\SKCOM_package.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="YuanTaProject;SKCOM_package"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="YuanTaProject:Clean;SKCOM_package:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="YuanTaProject:Make;SKCOM_package:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,747 @@
+-----------------------------------------------------------------
+[11584] 2017/12/09 17:25:23.664 Connect Server: FORT14.capital.com.tw 443
+[11584] 2017/12/09 17:25:27.043 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[11584] 2017/12/09 17:25:27.729 OnConnect ( 3001 , 0 ) 
+[11584] 2017/12/09 17:25:31.870 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[11584] 2017/12/09 17:25:33.839 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[11584] 2017/12/09 17:25:36.943 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[11584] 2017/12/09 17:25:37.415 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:37.604 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:37.708 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:37.968 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:37.987 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.062 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.091 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.120 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.152 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.214 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.221 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.283 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.364 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.424 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.526 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.630 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.645 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.654 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:38.701 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.003 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.069 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.102 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.129 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.133 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.212 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.308 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.329 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.500 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.553 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.683 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.934 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:39.941 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.002 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.045 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.053 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.091 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.098 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.133 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.228 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.555 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.569 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.580 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.603 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.621 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.631 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.668 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:40.674 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:41.724 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:41.894 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:41.908 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.093 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.198 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.291 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.296 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.564 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.645 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.660 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.714 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:42.989 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.014 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.157 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.216 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.505 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.511 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.539 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.552 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.585 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.620 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:43.991 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:44.006 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:44.040 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:44.056 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:25:44.059 execute OnNotifyHistoryTicks event exception, please check it
+[11584] 2017/12/09 17:26:11.441 SKOSQuoteLib_RequestKLine (TX00,0)
+[11584] 2017/12/09 17:26:11.441 KLine Format Error !
+[11584] 2017/12/09 17:26:11.538 SKOSQuoteLib_RequestKLine (TX00,1)
+[11584] 2017/12/09 17:26:11.539 KLine Format Error !
+[11584] 2017/12/09 17:26:12.295 SKOSQuoteLib_RequestTicks (0,TX00)
+[11584] 2017/12/09 17:26:12.295 StockNo Format Error 
+[8256] 2017/12/09 17:26:38.005 Connect Server: FORT03.capital.com.tw 443
+[8256] 2017/12/09 17:26:41.187 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8256] 2017/12/09 17:26:42.104 OnConnect ( 3001 , 0 ) 
+[8256] 2017/12/09 17:26:48.347 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[8256] 2017/12/09 17:26:50.182 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[15236] 2017/12/09 17:27:11.038 Connect Server: FORT14.capital.com.tw 443
+[15236] 2017/12/09 17:27:14.135 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[15236] 2017/12/09 17:27:15.093 OnConnect ( 3001 , 0 ) 
+[15236] 2017/12/09 17:27:19.984 SKOSQuoteLib_RequestKLine (TX00,0)
+[15236] 2017/12/09 17:27:19.984 KLine Format Error !
+[15236] 2017/12/09 17:27:20.110 SKOSQuoteLib_RequestKLine (TX00,1)
+[15236] 2017/12/09 17:27:20.111 KLine Format Error !
+[15236] 2017/12/09 17:27:20.544 SKOSQuoteLib_RequestTicks (0,TX00)
+[15236] 2017/12/09 17:27:20.544 StockNo Format Error 
+[15236] 2017/12/09 17:28:18.598 -----------------------------------------------------------------
+[10012] 2017/12/09 19:41:16.725 Connect Server: FORT03.capital.com.tw 443
+[10012] 2017/12/09 19:41:21.113 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[10012] 2017/12/09 19:41:22.032 OnConnect ( 3001 , 0 ) 
+[10012] 2017/12/09 19:41:26.229 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[10012] 2017/12/09 19:41:28.279 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[10012] 2017/12/09 19:41:36.235 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[10012] 2017/12/09 19:41:36.599 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:36.619 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.025 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.127 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.131 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.136 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.263 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.272 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.310 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.445 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.492 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.544 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.657 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.663 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.860 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.910 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.965 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.968 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.984 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.989 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:37.999 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:38.040 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:38.049 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.065 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.077 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.098 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.137 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.181 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.215 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.229 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.330 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.372 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.375 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.379 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.434 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.447 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:39.472 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.120 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.183 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.187 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.260 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.349 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.869 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:41.961 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.061 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.147 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.185 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.351 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.448 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.592 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.648 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.690 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:42.698 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.096 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.319 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.342 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.349 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.524 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.539 execute OnNotifyHistoryTicks event exception, please check it
+[10012] 2017/12/09 19:41:43.586 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:19.220 Connect Server: FORT03.capital.com.tw 443
+[14524] 2017/12/09 19:44:23.660 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[14524] 2017/12/09 19:44:24.571 OnConnect ( 3001 , 0 ) 
+[14524] 2017/12/09 19:44:29.684 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[14524] 2017/12/09 19:44:35.409 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[14524] 2017/12/09 19:44:47.622 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[14524] 2017/12/09 19:44:50.538 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:50.596 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:50.748 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:50.921 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.062 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.227 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.250 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.253 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.260 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.266 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.335 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.345 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.376 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.401 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.427 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.446 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.461 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.510 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.698 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.710 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.714 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.725 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.768 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.771 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.857 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.890 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:51.950 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.266 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.432 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.481 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.528 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.566 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.607 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.630 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.637 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.640 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.657 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.675 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.721 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.724 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.750 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.814 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.891 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.922 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.929 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:52.939 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.025 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.264 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.285 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.410 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.445 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.451 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.454 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.511 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.723 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.737 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.746 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.749 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.785 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.802 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.823 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:53.947 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:54.032 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:54.412 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:54.422 execute OnNotifyHistoryTicks event exception, please check it
+[14524] 2017/12/09 19:44:54.485 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:29.089 Connect Server: FORT14.capital.com.tw 443
+[2680] 2017/12/09 20:19:32.306 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[2680] 2017/12/09 20:19:33.175 OnConnect ( 3001 , 0 ) 
+[2680] 2017/12/09 20:19:39.036 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[2680] 2017/12/09 20:19:40.902 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[2680] 2017/12/09 20:19:48.822 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[2680] 2017/12/09 20:19:49.332 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.588 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.740 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.755 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.769 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.798 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.802 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.844 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.885 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:49.920 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:51.681 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:51.732 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:51.752 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:51.822 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:51.975 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:51.984 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.024 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.036 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.044 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.047 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.079 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.122 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.137 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.164 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.624 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.628 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.787 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.801 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:52.817 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.194 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.202 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.240 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.254 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.322 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.511 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.514 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.549 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.600 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.605 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.619 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.715 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.777 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.783 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.792 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.814 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.821 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.837 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:53.875 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.015 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.119 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.546 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.555 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.574 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.593 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.653 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.735 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.813 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:54.897 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:55.082 execute OnNotifyHistoryTicks event exception, please check it
+[2680] 2017/12/09 20:19:55.099 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:22:56.631 Connect Server: FORT14.capital.com.tw 443
+[15088] 2017/12/09 20:23:00.057 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[15088] 2017/12/09 20:23:00.957 OnConnect ( 3001 , 0 ) 
+[15088] 2017/12/09 20:23:07.588 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[15088] 2017/12/09 20:23:09.372 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[15088] 2017/12/09 20:23:18.990 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[15088] 2017/12/09 20:23:20.279 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.294 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.385 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.460 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.466 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.503 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.614 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.666 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.672 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.738 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.876 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:20.917 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:21.027 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:21.432 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:21.461 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:21.518 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.056 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.733 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.822 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.835 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.847 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.882 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.902 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.915 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.919 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.927 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.954 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.960 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.982 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:22.996 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.090 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.386 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.497 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.511 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.602 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.897 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.915 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.919 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:23.933 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.041 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.072 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.091 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.110 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.397 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.401 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.536 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.581 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.646 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.679 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.691 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:23:24.760 execute OnNotifyHistoryTicks event exception, please check it
+[15088] 2017/12/09 20:25:32.437 -----------------------------------------------------------------
+[14588] 2017/12/09 20:29:56.150 Connect Server: FORT14.capital.com.tw 443
+[14588] 2017/12/09 20:29:59.616 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[14588] 2017/12/09 20:30:00.501 OnConnect ( 3001 , 0 ) 
+[14588] 2017/12/09 20:30:06.594 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[14588] 2017/12/09 20:30:09.024 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[14588] 2017/12/09 20:30:16.377 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[14588] 2017/12/09 20:30:16.884 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:16.905 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.020 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.052 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.101 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.126 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.149 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.155 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.224 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.240 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.480 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.527 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.576 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.611 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.617 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.741 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.767 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.798 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.860 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.878 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.885 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:17.957 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:18.246 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:18.526 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:18.696 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:18.703 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:18.712 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:18.717 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:19.002 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:19.135 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:19.609 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:19.613 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:19.615 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:19.815 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.064 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.152 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.186 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.196 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.222 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.366 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.379 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.515 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:20.928 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.045 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.053 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.060 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.070 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.099 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.128 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.209 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.405 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.463 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.488 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.585 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.608 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.622 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.629 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.689 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.711 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.723 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.732 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.745 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.921 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.970 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:21.992 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.072 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.115 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.118 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.148 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.161 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.445 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.570 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.620 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.640 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.781 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.856 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.874 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.906 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.910 execute OnNotifyHistoryTicks event exception, please check it
+[14588] 2017/12/09 20:30:22.919 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:32:48.472 Connect Server: FORT14.capital.com.tw 443
+[6488] 2017/12/09 20:32:52.117 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[6488] 2017/12/09 20:32:53.076 OnConnect ( 3001 , 0 ) 
+[6488] 2017/12/09 20:32:57.591 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[6488] 2017/12/09 20:33:01.933 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[6488] 2017/12/09 20:33:11.349 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[6488] 2017/12/09 20:33:12.924 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:13.351 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:13.543 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:13.553 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:13.694 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:13.790 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:13.795 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.259 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.277 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.334 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.536 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.559 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.684 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:14.697 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.572 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.618 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.690 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.735 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.802 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.868 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:15.982 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.186 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.205 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.246 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.287 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.311 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.326 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.566 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.572 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.651 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.665 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.677 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.756 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.761 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.849 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:16.902 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.008 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.371 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.492 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.637 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.640 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.657 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.712 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.724 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.852 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:17.978 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:18.001 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:18.902 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:18.910 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:18.974 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:19.855 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:20.395 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:20.841 execute OnNotifyHistoryTicks event exception, please check it
+[6488] 2017/12/09 20:33:20.845 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:37.905 Connect Server: FORT03.capital.com.tw 443
+[13256] 2017/12/09 20:45:41.395 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[13256] 2017/12/09 20:45:42.301 OnConnect ( 3001 , 0 ) 
+[13256] 2017/12/09 20:45:48.200 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[13256] 2017/12/09 20:45:50.071 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[13256] 2017/12/09 20:45:58.715 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[13256] 2017/12/09 20:45:59.261 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.270 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.337 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.348 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.358 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.585 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.632 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.777 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.800 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:45:59.877 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.003 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.049 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.055 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.099 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.188 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.221 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.265 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:00.336 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.074 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.081 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.253 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.706 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.721 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.837 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:01.888 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:02.133 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:02.141 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:02.150 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:02.239 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:03.654 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:03.770 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:03.916 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:03.947 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:03.952 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:03.978 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:04.046 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:05.708 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:05.712 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:05.904 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:05.947 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:06.279 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:06.326 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:06.922 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:06.936 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:07.051 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:07.245 execute OnNotifyHistoryTicks event exception, please check it
+[13256] 2017/12/09 20:46:07.249 execute OnNotifyHistoryTicks event exception, please check it
+[14220] 2017/12/09 20:51:32.859 Connect Server: FORT14.capital.com.tw 443
+[14220] 2017/12/09 20:51:36.672 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[14220] 2017/12/09 20:51:37.562 OnConnect ( 3001 , 0 ) 
+[11712] 2017/12/09 20:53:44.230 Connect Server: FORT14.capital.com.tw 443
+[11712] 2017/12/09 20:53:47.825 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[11712] 2017/12/09 20:53:48.781 OnConnect ( 3001 , 0 ) 
+[11712] 2017/12/09 20:53:53.046 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[11712] 2017/12/09 20:53:55.175 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[11712] 2017/12/09 20:54:03.657 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[11712] 2017/12/09 20:54:04.082 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.219 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.284 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.300 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.393 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.399 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.657 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.726 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.757 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.786 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.797 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:04.832 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:05.905 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.339 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.437 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.473 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.519 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.559 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.569 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.576 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.646 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.717 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.739 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.820 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.883 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:06.887 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.232 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.619 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.656 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.674 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.707 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.870 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:07.908 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:09.217 execute OnNotifyHistoryTicks event exception, please check it
+[11712] 2017/12/09 20:54:09.266 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:28.492 Connect Server: FORT03.capital.com.tw 443
+[15100] 2017/12/09 21:05:31.974 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[15100] 2017/12/09 21:05:32.832 OnConnect ( 3001 , 0 ) 
+[15100] 2017/12/09 21:05:37.626 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[15100] 2017/12/09 21:05:39.557 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[15100] 2017/12/09 21:05:47.309 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[15100] 2017/12/09 21:05:47.855 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:47.889 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:47.979 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.071 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.081 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.089 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.103 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.128 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.178 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.273 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.294 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.345 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.362 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.450 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.455 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:48.481 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.335 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.392 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.427 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.567 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.574 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.581 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.593 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.612 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.615 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.625 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:49.637 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:50.547 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:50.612 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:50.617 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:50.623 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:50.677 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.256 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.312 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.326 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.341 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.461 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.544 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:51.957 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:52.024 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:52.229 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:52.371 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:52.409 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:52.471 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:52.518 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.223 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.226 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.229 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.262 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.500 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.520 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.544 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.568 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.616 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.646 execute OnNotifyHistoryTicks event exception, please check it
+[15100] 2017/12/09 21:05:53.659 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:08:43.943 Connect Server: FORT14.capital.com.tw 443
+[5500] 2017/12/09 21:08:47.520 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[5500] 2017/12/09 21:08:48.418 OnConnect ( 3001 , 0 ) 
+[5500] 2017/12/09 21:08:52.837 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[5500] 2017/12/09 21:08:55.555 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[5500] 2017/12/09 21:09:03.439 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[5500] 2017/12/09 21:09:03.851 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:03.998 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.043 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.082 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.100 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.187 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.236 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.240 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.274 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.530 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.584 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.599 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.624 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.726 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.761 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.805 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.884 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.905 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:04.990 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:05.660 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:05.805 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:05.926 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:05.931 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:05.980 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.124 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.160 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.177 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.180 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.255 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.274 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.770 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.780 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.796 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.803 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.825 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.834 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:06.844 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.147 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.160 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.214 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.261 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.270 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.709 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.725 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.731 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.737 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.757 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.784 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.856 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.879 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.898 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:07.964 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.100 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.158 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.205 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.212 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.522 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.567 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.621 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.639 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.698 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.745 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.772 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.803 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.860 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:08.893 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.005 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.031 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.042 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.094 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.126 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.131 execute OnNotifyHistoryTicks event exception, please check it
+[5500] 2017/12/09 21:09:09.136 execute OnNotifyHistoryTicks event exception, please check it

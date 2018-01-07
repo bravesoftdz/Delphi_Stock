@@ -1,0 +1,38 @@
+-----------------------------------------------------------------
+[14012] 2017/12/25 13:52:01.849 CALL SKOrderLib_ReadCertByID(A122689579)
+[14012] 2017/12/25 13:52:02.613 OrderSendSign result:0
+[14012] 2017/12/25 13:52:05.941 GetOverseaCount( )
+[14012] 2017/12/25 13:52:48.358 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:0 OrderNumerator: Trigger:0 TriggerNumerator: 
+[14012] 2017/12/25 13:53:58.332 -----------------------------------------------------------------
+[5512] 2017/12/25 13:54:06.750 CALL SKOrderLib_ReadCertByID(A122689579)
+[5512] 2017/12/25 13:54:07.185 OrderSendSign result:0
+[5512] 2017/12/25 13:54:10.293 GetOverseaCount( )
+[5512] 2017/12/25 13:54:51.846 -----------------------------------------------------------------
+[2940] 2017/12/25 14:16:51.086 CALL SKOrderLib_ReadCertByID(A122689579)
+[2940] 2017/12/25 14:16:51.588 OrderSendSign result:0
+[2940] 2017/12/25 14:16:54.895 GetOverseaCount( )
+[2940] 2017/12/25 14:18:03.965 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:208144352 Order:2687 OrderNumerator: Trigger:2687 TriggerNumerator: 
+[2940] 2017/12/25 14:20:03.799 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:2 Order:2687 OrderNumerator: Trigger:2687 TriggerNumerator: 
+[2940] 2017/12/25 14:20:09.251 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:1 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:2687 OrderNumerator: Trigger:2687 TriggerNumerator: 
+[15080] 2017/12/25 14:21:57.327 CALL SKOrderLib_ReadCertByID(A122689579)
+[15080] 2017/12/25 14:21:57.768 OrderSendSign result:0
+[15080] 2017/12/25 14:22:00.898 GetOverseaCount( )
+[8476] 2017/12/25 14:22:31.942 CALL SKOrderLib_ReadCertByID(A122689579)
+[8476] 2017/12/25 14:22:32.456 OrderSendSign result:0
+[8476] 2017/12/25 14:22:35.491 GetOverseaCount( )
+[15164] 2017/12/25 14:23:51.807 CALL SKOrderLib_ReadCertByID(A122689579)
+[15164] 2017/12/25 14:23:52.386 OrderSendSign result:0
+[15164] 2017/12/25 14:23:55.608 GetOverseaCount( )
+[15164] 2017/12/25 14:24:13.639 -----------------------------------------------------------------
+[11672] 2017/12/25 14:24:50.378 CALL SKOrderLib_ReadCertByID(A122689579)
+[11672] 2017/12/25 14:24:51.022 OrderSendSign result:0
+[11672] 2017/12/25 14:24:54.004 GetOverseaCount( )
+[11672] 2017/12/25 14:25:01.685 -----------------------------------------------------------------
+[3488] 2017/12/25 14:25:47.608 CALL SKOrderLib_ReadCertByID(A122689579)
+[3488] 2017/12/25 14:25:48.033 OrderSendSign result:0
+[3488] 2017/12/25 14:25:51.527 GetOverseaCount( )
+[3488] 2017/12/25 14:26:00.858 -----------------------------------------------------------------
+[11724] 2017/12/25 14:26:22.797 CALL SKOrderLib_ReadCertByID(A122689579)
+[11724] 2017/12/25 14:26:23.361 OrderSendSign result:0
+[11724] 2017/12/25 14:26:26.699 GetOverseaCount( )
+[11724] 2017/12/25 14:28:16.866 -----------------------------------------------------------------

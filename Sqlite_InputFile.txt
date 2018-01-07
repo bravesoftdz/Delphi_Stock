@@ -1,0 +1,2 @@
+.separator ","
+.import AllTXF00Data_CME,ES_1803.Txt TradeRecord

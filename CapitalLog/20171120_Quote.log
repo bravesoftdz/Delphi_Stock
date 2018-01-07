@@ -1,0 +1,418 @@
+-----------------------------------------------------------------
+[8592] 2017/11/20 08:17:55.097 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8592] 2017/11/20 08:17:55.422 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[8592] 2017/11/20 08:17:55.645 market(0)  Ready!
+[8592] 2017/11/20 08:17:55.660 market(2)  Ready!
+[8592] 2017/11/20 08:17:55.660 market(1)  Ready!
+[8592] 2017/11/20 08:17:55.705 market(3)  Ready!
+[8592] 2017/11/20 08:17:55.705 market(4)  Ready!
+[8592] 2017/11/20 08:17:58.477 Market Info is OK!
+[8592] 2017/11/20 08:17:59.277 Catalog info is OK!
+[8592] 2017/11/20 08:18:05.881  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[8592] 2017/11/20 08:18:05.881 Return PageNo¡G 0 
+[2584] 2017/11/20 09:19:54.390 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[2584] 2017/11/20 09:19:54.714 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[2584] 2017/11/20 09:19:55.091 market(0)  Ready!
+[2584] 2017/11/20 09:19:55.095 market(2)  Ready!
+[2584] 2017/11/20 09:19:55.095 market(1)  Ready!
+[2584] 2017/11/20 09:19:55.163 market(4)  Ready!
+[2584] 2017/11/20 09:19:55.163 market(3)  Ready!
+[2584] 2017/11/20 09:19:59.339 Market Info is OK!
+[2584] 2017/11/20 09:20:00.071 Catalog info is OK!
+[2584] 2017/11/20 09:20:07.210  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[2584] 2017/11/20 09:20:07.210 Return PageNo¡G 0 
+[6368] 2017/11/20 09:22:28.743 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[6368] 2017/11/20 09:22:29.056 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[6368] 2017/11/20 09:22:29.435 market(0)  Ready!
+[6368] 2017/11/20 09:22:29.516 market(1)  Ready!
+[6368] 2017/11/20 09:22:29.517 market(2)  Ready!
+[6368] 2017/11/20 09:22:29.518 market(3)  Ready!
+[6368] 2017/11/20 09:22:29.519 market(4)  Ready!
+[6368] 2017/11/20 09:22:32.603 Market Info is OK!
+[6368] 2017/11/20 09:22:33.116 Catalog info is OK!
+[6368] 2017/11/20 09:22:37.563  SKQuoteLib_RequestTicks ( 1 , CME,ES_1712 )
+[10972] 2017/11/20 09:23:08.774 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[10972] 2017/11/20 09:23:09.064 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[10972] 2017/11/20 09:23:09.390 market(0)  Ready!
+[10972] 2017/11/20 09:23:09.407 market(3)  Ready!
+[10972] 2017/11/20 09:23:09.441 market(1)  Ready!
+[10972] 2017/11/20 09:23:09.442 market(2)  Ready!
+[10972] 2017/11/20 09:23:09.453 market(4)  Ready!
+[10972] 2017/11/20 09:23:12.627 Market Info is OK!
+[10972] 2017/11/20 09:23:13.366 Catalog info is OK!
+[10972] 2017/11/20 09:23:18.564  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[10972] 2017/11/20 09:23:18.564 Return PageNo¡G 0 
+[804] 2017/11/20 09:24:20.847 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[804] 2017/11/20 09:24:21.133 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[804] 2017/11/20 09:24:21.369 market(0)  Ready!
+[804] 2017/11/20 09:24:21.408 market(3)  Ready!
+[804] 2017/11/20 09:24:21.408 market(1)  Ready!
+[804] 2017/11/20 09:24:21.409 market(2)  Ready!
+[804] 2017/11/20 09:24:21.589 market(4)  Ready!
+[804] 2017/11/20 09:24:24.604 Market Info is OK!
+[804] 2017/11/20 09:24:25.209 Catalog info is OK!
+[804] 2017/11/20 09:24:33.432  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[804] 2017/11/20 09:24:33.432 Return PageNo¡G 0 
+[7920] 2017/11/20 09:26:55.237 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[7920] 2017/11/20 09:26:55.510 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[7920] 2017/11/20 09:26:55.827 market(0)  Ready!
+[7920] 2017/11/20 09:26:55.878 market(1)  Ready!
+[7920] 2017/11/20 09:26:55.889 market(2)  Ready!
+[7920] 2017/11/20 09:26:55.889 market(3)  Ready!
+[7920] 2017/11/20 09:26:55.893 market(4)  Ready!
+[7920] 2017/11/20 09:26:59.200 Market Info is OK!
+[7920] 2017/11/20 09:26:59.905 Catalog info is OK!
+[7920] 2017/11/20 09:27:06.177  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[7920] 2017/11/20 09:27:06.177 Return PageNo¡G 0 
+[2804] 2017/11/20 09:36:37.426 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[2804] 2017/11/20 09:36:37.698 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[2804] 2017/11/20 09:36:38.017 market(0)  Ready!
+[2804] 2017/11/20 09:36:38.078 market(1)  Ready!
+[2804] 2017/11/20 09:36:38.078 market(4)  Ready!
+[2804] 2017/11/20 09:36:38.082 market(2)  Ready!
+[2804] 2017/11/20 09:36:38.083 market(3)  Ready!
+[2804] 2017/11/20 09:36:41.374 Market Info is OK!
+[2804] 2017/11/20 09:36:42.038 Catalog info is OK!
+[2804] 2017/11/20 09:36:48.367  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[2804] 2017/11/20 09:36:48.367 Return PageNo¡G 0 
+[4684] 2017/11/20 09:38:24.235 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[4684] 2017/11/20 09:38:24.532 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[4684] 2017/11/20 09:38:25.054 market(1)  Ready!
+[4684] 2017/11/20 09:38:25.056 market(0)  Ready!
+[4684] 2017/11/20 09:38:25.065 market(4)  Ready!
+[4684] 2017/11/20 09:38:25.111 market(2)  Ready!
+[4684] 2017/11/20 09:38:25.117 market(3)  Ready!
+[4684] 2017/11/20 09:38:28.189 Market Info is OK!
+[4684] 2017/11/20 09:38:28.826 Catalog info is OK!
+[4684] 2017/11/20 09:38:35.195  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[4684] 2017/11/20 09:38:35.195 Return PageNo¡G 0 
+[8784] 2017/11/20 09:41:23.266 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8784] 2017/11/20 09:41:23.546 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[8784] 2017/11/20 09:41:23.830 market(0)  Ready!
+[8784] 2017/11/20 09:41:23.839 market(1)  Ready!
+[8784] 2017/11/20 09:41:23.913 market(4)  Ready!
+[8784] 2017/11/20 09:41:23.913 market(2)  Ready!
+[8784] 2017/11/20 09:41:23.913 market(3)  Ready!
+[8784] 2017/11/20 09:41:27.035 Market Info is OK!
+[8784] 2017/11/20 09:41:27.690 Catalog info is OK!
+[8784] 2017/11/20 09:41:34.281  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[8784] 2017/11/20 09:41:34.281 Return PageNo¡G 0 
+[1424] 2017/11/20 09:43:29.468 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[1424] 2017/11/20 09:43:29.803 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[1424] 2017/11/20 09:43:30.121 market(4)  Ready!
+[1424] 2017/11/20 09:43:30.122 market(0)  Ready!
+[1424] 2017/11/20 09:43:30.129 market(3)  Ready!
+[1424] 2017/11/20 09:43:30.183 market(1)  Ready!
+[1424] 2017/11/20 09:43:30.185 market(2)  Ready!
+[1424] 2017/11/20 09:43:33.448 Market Info is OK!
+[1424] 2017/11/20 09:43:33.953 Catalog info is OK!
+[1424] 2017/11/20 09:43:40.393  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[1424] 2017/11/20 09:43:40.393 Return PageNo¡G 0 
+[9136] 2017/11/20 09:45:57.094 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[9136] 2017/11/20 09:45:57.378 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[9136] 2017/11/20 09:45:57.697 market(0)  Ready!
+[9136] 2017/11/20 09:45:57.704 market(1)  Ready!
+[9136] 2017/11/20 09:45:57.707 market(2)  Ready!
+[9136] 2017/11/20 09:45:57.760 market(3)  Ready!
+[9136] 2017/11/20 09:45:57.764 market(4)  Ready!
+[9136] 2017/11/20 09:46:00.996 Market Info is OK!
+[9136] 2017/11/20 09:46:01.558 Catalog info is OK!
+[9136] 2017/11/20 09:46:08.093  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[9136] 2017/11/20 09:46:08.093 Return PageNo¡G 0 
+[9136] 2017/11/20 09:47:38.032 -----------------------------------------------------------------
+[8456] 2017/11/20 09:49:04.436 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8456] 2017/11/20 09:49:04.731 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[8456] 2017/11/20 09:49:05.005 market(0)  Ready!
+[8456] 2017/11/20 09:49:05.008 market(1)  Ready!
+[8456] 2017/11/20 09:49:05.255 market(4)  Ready!
+[8456] 2017/11/20 09:49:05.255 market(2)  Ready!
+[8456] 2017/11/20 09:49:05.255 market(3)  Ready!
+[8456] 2017/11/20 09:49:08.302 Market Info is OK!
+[8456] 2017/11/20 09:49:09.071 Catalog info is OK!
+[8456] 2017/11/20 09:49:17.729  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[8456] 2017/11/20 09:49:17.729 Return PageNo¡G 0 
+[2132] 2017/11/20 09:51:25.249 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[2132] 2017/11/20 09:51:25.559 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[2132] 2017/11/20 09:51:25.863 market(4)  Ready!
+[2132] 2017/11/20 09:51:25.869 market(0)  Ready!
+[2132] 2017/11/20 09:51:25.880 market(1)  Ready!
+[2132] 2017/11/20 09:51:25.929 market(3)  Ready!
+[2132] 2017/11/20 09:51:25.929 market(2)  Ready!
+[2132] 2017/11/20 09:51:29.054 Market Info is OK!
+[2132] 2017/11/20 09:51:29.815 Catalog info is OK!
+[2132] 2017/11/20 09:51:36.618  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[2132] 2017/11/20 09:51:36.618 Return PageNo¡G 0 
+[3344] 2017/11/20 10:00:09.572 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[3344] 2017/11/20 10:00:09.961 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[3344] 2017/11/20 10:00:10.384 market(4)  Ready!
+[3344] 2017/11/20 10:00:10.384 market(2)  Ready!
+[3344] 2017/11/20 10:00:10.384 market(0)  Ready!
+[3344] 2017/11/20 10:00:10.400 market(1)  Ready!
+[3344] 2017/11/20 10:00:10.443 market(3)  Ready!
+[3344] 2017/11/20 10:00:13.610 Market Info is OK!
+[3344] 2017/11/20 10:00:14.318 Catalog info is OK!
+[3344] 2017/11/20 10:00:19.812  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[3344] 2017/11/20 10:00:19.813 Return PageNo¡G 0 
+[1328] 2017/11/20 10:09:36.590 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[1328] 2017/11/20 10:09:36.869 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[1328] 2017/11/20 10:09:37.163 market(4)  Ready!
+[1328] 2017/11/20 10:09:37.166 market(0)  Ready!
+[1328] 2017/11/20 10:09:37.177 market(3)  Ready!
+[1328] 2017/11/20 10:09:37.243 market(1)  Ready!
+[1328] 2017/11/20 10:09:37.244 market(2)  Ready!
+[1328] 2017/11/20 10:09:40.530 Market Info is OK!
+[1328] 2017/11/20 10:09:41.272 Catalog info is OK!
+[1328] 2017/11/20 10:09:46.678  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[1328] 2017/11/20 10:09:46.678 Return PageNo¡G 0 
+[10264] 2017/11/20 10:20:27.083 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[10264] 2017/11/20 10:20:27.358 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[10264] 2017/11/20 10:20:27.671 market(0)  Ready!
+[10264] 2017/11/20 10:20:27.756 market(1)  Ready!
+[10264] 2017/11/20 10:20:27.756 market(4)  Ready!
+[10264] 2017/11/20 10:20:27.756 market(2)  Ready!
+[10264] 2017/11/20 10:20:27.825 market(3)  Ready!
+[10264] 2017/11/20 10:20:30.674 Market Info is OK!
+[10264] 2017/11/20 10:20:31.395 Catalog info is OK!
+[10264] 2017/11/20 10:20:38.327  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[10264] 2017/11/20 10:20:38.327 Return PageNo¡G 0 
+[7300] 2017/11/20 10:25:20.475 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[7300] 2017/11/20 10:25:20.747 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[7300] 2017/11/20 10:25:20.993 market(3)  Ready!
+[7300] 2017/11/20 10:25:20.995 market(1)  Ready!
+[7300] 2017/11/20 10:25:20.995 market(2)  Ready!
+[7300] 2017/11/20 10:25:21.040 market(4)  Ready!
+[7300] 2017/11/20 10:25:21.050 market(0)  Ready!
+[7300] 2017/11/20 10:25:24.206 Market Info is OK!
+[7300] 2017/11/20 10:25:24.731 Catalog info is OK!
+[7300] 2017/11/20 10:25:33.279  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[7300] 2017/11/20 10:25:33.279 Return PageNo¡G 0 
+[9012] 2017/11/20 10:35:30.290 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[9012] 2017/11/20 10:35:30.575 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[9012] 2017/11/20 10:35:30.900 market(0)  Ready!
+[9012] 2017/11/20 10:35:30.921 market(1)  Ready!
+[9012] 2017/11/20 10:35:30.921 market(2)  Ready!
+[9012] 2017/11/20 10:35:30.961 market(3)  Ready!
+[9012] 2017/11/20 10:35:30.963 market(4)  Ready!
+[9012] 2017/11/20 10:35:34.188 Market Info is OK!
+[9012] 2017/11/20 10:35:34.895 Catalog info is OK!
+[9012] 2017/11/20 10:35:40.403  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[9012] 2017/11/20 10:35:40.403 Return PageNo¡G 0 
+[4864] 2017/11/20 10:46:34.975 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[4864] 2017/11/20 10:46:35.255 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[4864] 2017/11/20 10:46:35.494 market(0)  Ready!
+[4864] 2017/11/20 10:46:35.499 market(3)  Ready!
+[4864] 2017/11/20 10:46:35.499 market(1)  Ready!
+[4864] 2017/11/20 10:46:35.500 market(2)  Ready!
+[4864] 2017/11/20 10:46:35.720 market(4)  Ready!
+[4864] 2017/11/20 10:46:38.842 Market Info is OK!
+[4864] 2017/11/20 10:46:39.392 Catalog info is OK!
+[4864] 2017/11/20 10:46:45.209  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[4864] 2017/11/20 10:46:45.209 Return PageNo¡G 0 
+[4864] 2017/11/20 10:48:32.019 -----------------------------------------------------------------
+[8052] 2017/11/20 10:53:14.845 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8052] 2017/11/20 10:53:15.148 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[8052] 2017/11/20 10:53:15.452 market(0)  Ready!
+[8052] 2017/11/20 10:53:15.467 market(1)  Ready!
+[8052] 2017/11/20 10:53:15.468 market(2)  Ready!
+[8052] 2017/11/20 10:53:15.519 market(3)  Ready!
+[8052] 2017/11/20 10:53:15.519 market(4)  Ready!
+[8052] 2017/11/20 10:53:18.546 Market Info is OK!
+[8052] 2017/11/20 10:53:19.209 Catalog info is OK!
+[7296] 2017/11/20 10:54:29.908 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[7296] 2017/11/20 10:54:29.967 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[7296] 2017/11/20 10:54:30.325 market(0)  Ready!
+[7296] 2017/11/20 10:54:30.390 market(3)  Ready!
+[7296] 2017/11/20 10:54:30.391 market(4)  Ready!
+[7296] 2017/11/20 10:54:30.393 market(1)  Ready!
+[7296] 2017/11/20 10:54:30.396 market(2)  Ready!
+[7296] 2017/11/20 10:54:31.119 Market Info is OK!
+[7296] 2017/11/20 10:54:31.778 Catalog info is OK!
+[4760] 2017/11/20 10:56:26.047 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[4760] 2017/11/20 10:56:26.103 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[4760] 2017/11/20 10:56:26.392 market(4)  Ready!
+[4760] 2017/11/20 10:56:26.397 market(0)  Ready!
+[4760] 2017/11/20 10:56:26.413 market(2)  Ready!
+[4760] 2017/11/20 10:56:26.417 market(3)  Ready!
+[4760] 2017/11/20 10:56:26.449 market(1)  Ready!
+[4760] 2017/11/20 10:56:27.295 Market Info is OK!
+[4760] 2017/11/20 10:56:28.034 Catalog info is OK!
+[4760] 2017/11/20 10:58:26.103 -----------------------------------------------------------------
+[10180] 2017/11/20 14:07:59.157 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[10180] 2017/11/20 14:07:59.228 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[10180] 2017/11/20 14:07:59.525 market(4)  Ready!
+[10180] 2017/11/20 14:07:59.526 market(0)  Ready!
+[10180] 2017/11/20 14:07:59.526 market(2)  Ready!
+[10180] 2017/11/20 14:07:59.594 market(3)  Ready!
+[10180] 2017/11/20 14:07:59.594 market(1)  Ready!
+[10180] 2017/11/20 14:08:00.290 Market Info is OK!
+[10180] 2017/11/20 14:08:00.870 Catalog info is OK!
+[10180] 2017/11/20 14:15:31.837 -----------------------------------------------------------------
+[3196] 2017/11/20 14:16:29.350 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[3196] 2017/11/20 14:16:29.603 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[3196] 2017/11/20 14:16:29.823 market(0)  Ready!
+[3196] 2017/11/20 14:16:29.861 market(1)  Ready!
+[3196] 2017/11/20 14:16:29.864 market(3)  Ready!
+[3196] 2017/11/20 14:16:29.876 market(2)  Ready!
+[3196] 2017/11/20 14:16:29.922 market(4)  Ready!
+[3196] 2017/11/20 14:16:32.888 Market Info is OK!
+[3196] 2017/11/20 14:16:33.515 Catalog info is OK!
+[3196] 2017/11/20 14:17:38.108 -----------------------------------------------------------------
+[4700] 2017/11/20 14:17:52.223 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[4700] 2017/11/20 14:17:52.479 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[4700] 2017/11/20 14:17:52.659 market(0)  Ready!
+[4700] 2017/11/20 14:17:52.712 market(4)  Ready!
+[4700] 2017/11/20 14:17:52.755 market(1)  Ready!
+[4700] 2017/11/20 14:17:52.799 market(2)  Ready!
+[4700] 2017/11/20 14:17:52.805 market(3)  Ready!
+[4700] 2017/11/20 14:17:55.557 Market Info is OK!
+[4700] 2017/11/20 14:17:56.206 Catalog info is OK!
+[6128] 2017/11/20 14:22:59.072 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[6128] 2017/11/20 14:22:59.324 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[6128] 2017/11/20 14:22:59.495 market(0)  Ready!
+[6128] 2017/11/20 14:22:59.608 market(3)  Ready!
+[6128] 2017/11/20 14:22:59.609 market(1)  Ready!
+[6128] 2017/11/20 14:22:59.609 market(2)  Ready!
+[6128] 2017/11/20 14:22:59.652 market(4)  Ready!
+[6128] 2017/11/20 14:23:02.544 Market Info is OK!
+[6128] 2017/11/20 14:23:03.202 Catalog info is OK!
+[5864] 2017/11/20 14:26:49.560 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[5864] 2017/11/20 14:26:49.831 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[5864] 2017/11/20 14:26:50.068 market(0)  Ready!
+[5864] 2017/11/20 14:26:50.120 market(1)  Ready!
+[5864] 2017/11/20 14:26:50.120 market(3)  Ready!
+[5864] 2017/11/20 14:26:50.120 market(2)  Ready!
+[5864] 2017/11/20 14:26:50.121 market(4)  Ready!
+[5864] 2017/11/20 14:26:52.983 Market Info is OK!
+[5864] 2017/11/20 14:26:53.718 Catalog info is OK!
+[7904] 2017/11/20 14:29:31.899 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[7904] 2017/11/20 14:29:32.148 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[7904] 2017/11/20 14:29:32.381 market(0)  Ready!
+[7904] 2017/11/20 14:29:32.382 market(1)  Ready!
+[7904] 2017/11/20 14:29:32.404 market(3)  Ready!
+[7904] 2017/11/20 14:29:32.436 market(2)  Ready!
+[7904] 2017/11/20 14:29:32.437 market(4)  Ready!
+[7904] 2017/11/20 14:29:35.254 Market Info is OK!
+[7904] 2017/11/20 14:29:35.866 Catalog info is OK!
+[7904] 2017/11/20 14:29:45.515  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[7904] 2017/11/20 14:29:45.515 Return PageNo¡G 0 
+[7904] 2017/11/20 14:31:01.256  SKQuoteLib_RequestTicks ( 2 , TX00 )
+[7904] 2017/11/20 14:31:01.256 Return PageNo¡G 1 
+[8760] 2017/11/20 14:32:31.657 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8760] 2017/11/20 14:32:31.912 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[8760] 2017/11/20 14:32:32.167 market(0)  Ready!
+[8760] 2017/11/20 14:32:32.169 market(2)  Ready!
+[8760] 2017/11/20 14:32:32.170 market(1)  Ready!
+[8760] 2017/11/20 14:32:32.235 market(3)  Ready!
+[8760] 2017/11/20 14:32:32.235 market(4)  Ready!
+[8760] 2017/11/20 14:32:35.101 Market Info is OK!
+[8760] 2017/11/20 14:32:35.785 Catalog info is OK!
+[8352] 2017/11/20 14:36:19.725 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8352] 2017/11/20 14:36:19.983 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[8352] 2017/11/20 14:36:20.273 market(4)  Ready!
+[8352] 2017/11/20 14:36:20.273 market(0)  Ready!
+[8352] 2017/11/20 14:36:20.273 market(2)  Ready!
+[8352] 2017/11/20 14:36:20.273 market(1)  Ready!
+[8352] 2017/11/20 14:36:20.317 market(3)  Ready!
+[8352] 2017/11/20 14:36:23.151 Market Info is OK!
+[8352] 2017/11/20 14:36:23.872 Catalog info is OK!
+[7696] 2017/11/20 14:41:57.712 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[7696] 2017/11/20 14:41:57.955 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[7696] 2017/11/20 14:41:58.185 market(0)  Ready!
+[7696] 2017/11/20 14:41:58.223 market(3)  Ready!
+[7696] 2017/11/20 14:41:58.225 market(1)  Ready!
+[7696] 2017/11/20 14:41:58.229 market(4)  Ready!
+[7696] 2017/11/20 14:41:58.230 market(2)  Ready!
+[7696] 2017/11/20 14:42:01.121 Market Info is OK!
+[7696] 2017/11/20 14:42:01.888 Catalog info is OK!
+[10048] 2017/11/20 14:45:06.521 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[10048] 2017/11/20 14:45:06.773 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[10048] 2017/11/20 14:45:06.996 market(0)  Ready!
+[10048] 2017/11/20 14:45:07.059 market(2)  Ready!
+[10048] 2017/11/20 14:45:07.059 market(1)  Ready!
+[10048] 2017/11/20 14:45:07.059 market(4)  Ready!
+[10048] 2017/11/20 14:45:07.062 market(3)  Ready!
+[10048] 2017/11/20 14:45:10.051 Market Info is OK!
+[10048] 2017/11/20 14:45:10.740 Catalog info is OK!
+[5424] 2017/11/20 14:45:57.751 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[5424] 2017/11/20 14:45:58.012 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[5424] 2017/11/20 14:45:58.185 market(0)  Ready!
+[5424] 2017/11/20 14:45:58.197 market(1)  Ready!
+[5424] 2017/11/20 14:45:58.249 market(2)  Ready!
+[5424] 2017/11/20 14:45:58.249 market(3)  Ready!
+[5424] 2017/11/20 14:45:58.335 market(4)  Ready!
+[5424] 2017/11/20 14:46:01.142 Market Info is OK!
+[5424] 2017/11/20 14:46:01.856 Catalog info is OK!
+[9800] 2017/11/20 14:48:38.771 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[9800] 2017/11/20 14:48:39.013 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[9800] 2017/11/20 14:48:39.242 market(0)  Ready!
+[9800] 2017/11/20 14:48:39.302 market(1)  Ready!
+[9800] 2017/11/20 14:48:39.303 market(3)  Ready!
+[9800] 2017/11/20 14:48:39.308 market(2)  Ready!
+[9800] 2017/11/20 14:48:39.347 market(4)  Ready!
+[9800] 2017/11/20 14:48:42.516 Market Info is OK!
+[9800] 2017/11/20 14:48:43.358 Catalog info is OK!
+[6768] 2017/11/20 14:50:33.409 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[6768] 2017/11/20 14:50:33.657 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[6768] 2017/11/20 14:50:33.879 market(4)  Ready!
+[6768] 2017/11/20 14:50:33.885 market(0)  Ready!
+[6768] 2017/11/20 14:50:33.925 market(2)  Ready!
+[6768] 2017/11/20 14:50:33.925 market(1)  Ready!
+[6768] 2017/11/20 14:50:33.929 market(3)  Ready!
+[6768] 2017/11/20 14:50:37.090 Market Info is OK!
+[6768] 2017/11/20 14:50:37.789 Catalog info is OK!
+[6768] 2017/11/20 14:50:47.359  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[6768] 2017/11/20 14:50:47.359 Return PageNo¡G 0 
+[9260] 2017/11/20 14:55:53.326 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[9260] 2017/11/20 14:55:53.595 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[9260] 2017/11/20 14:55:53.817 market(0)  Ready!
+[9260] 2017/11/20 14:55:53.876 market(3)  Ready!
+[9260] 2017/11/20 14:55:53.876 market(1)  Ready!
+[9260] 2017/11/20 14:55:53.876 market(4)  Ready!
+[9260] 2017/11/20 14:55:53.877 market(2)  Ready!
+[9260] 2017/11/20 14:55:56.926 Market Info is OK!
+[9260] 2017/11/20 14:55:57.641 Catalog info is OK!
+[9260] 2017/11/20 14:56:02.019  SKQuoteLib_RequestTicks ( 1 , CME,ES_1712 )
+[2248] 2017/11/20 14:56:34.476 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[2248] 2017/11/20 14:56:34.726 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[2248] 2017/11/20 14:56:35.040 market(0)  Ready!
+[2248] 2017/11/20 14:56:35.042 market(3)  Ready!
+[2248] 2017/11/20 14:56:35.042 market(4)  Ready!
+[2248] 2017/11/20 14:56:35.085 market(2)  Ready!
+[2248] 2017/11/20 14:56:35.086 market(1)  Ready!
+[2248] 2017/11/20 14:56:37.929 Market Info is OK!
+[2248] 2017/11/20 14:56:38.703 Catalog info is OK!
+[2248] 2017/11/20 14:56:47.613  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[2248] 2017/11/20 14:56:47.613 Return PageNo¡G 0 
+[8768] 2017/11/20 15:05:49.759 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8768] 2017/11/20 15:05:50.005 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[8768] 2017/11/20 15:05:50.233 market(0)  Ready!
+[8768] 2017/11/20 15:05:50.296 market(1)  Ready!
+[8768] 2017/11/20 15:05:50.296 market(3)  Ready!
+[8768] 2017/11/20 15:05:50.342 market(2)  Ready!
+[8768] 2017/11/20 15:05:50.345 market(4)  Ready!
+[8768] 2017/11/20 15:05:53.070 Market Info is OK!
+[8768] 2017/11/20 15:05:53.779 Catalog info is OK!
+[8768] 2017/11/20 15:06:07.006  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[8768] 2017/11/20 15:06:07.006 Return PageNo¡G 0 
+[7992] 2017/11/20 17:28:29.370 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[7992] 2017/11/20 17:28:29.659 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[7992] 2017/11/20 17:28:29.881 market(0)  Ready!
+[7992] 2017/11/20 17:28:29.889 market(3)  Ready!
+[7992] 2017/11/20 17:28:29.919 market(1)  Ready!
+[7992] 2017/11/20 17:28:29.926 market(2)  Ready!
+[7992] 2017/11/20 17:28:29.929 market(4)  Ready!
+[7992] 2017/11/20 17:28:33.075 Market Info is OK!
+[7992] 2017/11/20 17:28:33.691 Catalog info is OK!
+[7992] 2017/11/20 17:28:42.657  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[7992] 2017/11/20 17:28:42.657 Return PageNo¡G 0 
+[8788] 2017/11/20 17:41:16.504 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[8788] 2017/11/20 17:41:16.758 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[8788] 2017/11/20 17:41:16.931 market(0)  Ready!
+[8788] 2017/11/20 17:41:17.016 market(1)  Ready!
+[8788] 2017/11/20 17:41:17.025 market(3)  Ready!
+[8788] 2017/11/20 17:41:17.033 market(4)  Ready!
+[8788] 2017/11/20 17:41:17.059 market(2)  Ready!
+[8788] 2017/11/20 17:41:19.938 Market Info is OK!
+[8788] 2017/11/20 17:41:20.784 Catalog info is OK!
+[8788] 2017/11/20 17:41:28.932  SKQuoteLib_RequestTicks ( 1 , TX00 )
+[8788] 2017/11/20 17:41:28.932 Return PageNo¡G 0 

@@ -1,0 +1,157 @@
+-----------------------------------------------------------------
+[12424] 2017/12/21 10:33:02.784 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12424] 2017/12/21 10:33:04.277 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12424] 2017/12/21 10:33:06.041  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12424] 2017/12/21 10:34:21.744 SKQuoteLib_LeaveMonitor() 
+[12424] 2017/12/21 10:34:22.655 -----------------------------------------------------------------
+[9032] 2017/12/21 10:39:35.219 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[9032] 2017/12/21 10:39:36.733 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[9032] 2017/12/21 10:39:38.484  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[5012] 2017/12/21 10:47:47.223 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[5012] 2017/12/21 10:47:48.722 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[5012] 2017/12/21 10:47:50.463  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[4496] 2017/12/21 10:48:35.743 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[4496] 2017/12/21 10:48:37.232 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[4496] 2017/12/21 10:48:38.979  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[216] 2017/12/21 11:29:24.105 SKQuoteLib_LeaveMonitor() 
+[216] 2017/12/21 11:29:26.964 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[216] 2017/12/21 11:29:27.282 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[216] 2017/12/21 11:29:27.505 market(0)  Ready!
+[216] 2017/12/21 11:29:27.544 market(1)  Ready!
+[216] 2017/12/21 11:29:27.547 market(3)  Ready!
+[216] 2017/12/21 11:29:27.552 market(4)  Ready!
+[216] 2017/12/21 11:29:27.584 market(2)  Ready!
+[216] 2017/12/21 11:29:28.034 Market Info is OK!
+[216] 2017/12/21 11:29:28.208 Catalog info is OK!
+[216] 2017/12/21 11:29:35.644 SKQuoteLib_GetKLine(0,TX00 )
+[216] 2017/12/21 11:29:42.683 SKQuoteLib_GetKLine(3,TX00 )
+[216] 2017/12/21 11:29:45.796  SKQuoteLib_RequestTicks ( 0 , TX00 )
+[216] 2017/12/21 11:29:45.796 Return PageNo¡G 0 
+[216] 2017/12/21 11:29:46.438 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.286 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.331 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.342 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.381 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.475 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.531 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:50.665 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:51.089 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:51.232 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:51.420 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:29:51.624 execute OnNotifyHistoryTicks event exception, please check it
+[216] 2017/12/21 11:30:49.766 SKQuoteLib_LeaveMonitor() 
+[12304] 2017/12/21 11:34:56.573 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[12304] 2017/12/21 11:34:56.873 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[12304] 2017/12/21 11:34:57.214 market(0)  Ready!
+[12304] 2017/12/21 11:34:57.267 market(1)  Ready!
+[12304] 2017/12/21 11:34:57.267 market(2)  Ready!
+[12304] 2017/12/21 11:34:57.268 market(3)  Ready!
+[12304] 2017/12/21 11:34:57.269 market(4)  Ready!
+[12304] 2017/12/21 11:34:58.445 Market Info is OK!
+[12304] 2017/12/21 11:34:58.645 Catalog info is OK!
+[12304] 2017/12/21 11:35:00.986 SKQuoteLib_GetKLine(0,TX00 )
+[12304] 2017/12/21 11:35:11.183 SKQuoteLib_GetKLine(3,TX00 )
+[12304] 2017/12/21 11:35:15.326  SKQuoteLib_RequestTicks ( 0 , TX00 )
+[12304] 2017/12/21 11:35:15.326 Return PageNo¡G 0 
+[12304] 2017/12/21 11:35:16.652 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:16.699 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:16.794 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:16.803 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:16.949 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.006 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.017 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.131 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.192 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.239 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.287 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.331 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.383 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.524 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:17.577 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:18.268 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:19.092 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:19.744 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:19.980 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:20.038 execute OnNotifyHistoryTicks event exception, please check it
+[12304] 2017/12/21 11:35:59.597 SKQuoteLib_LeaveMonitor() 
+[6316] 2017/12/21 11:36:51.827 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[6316] 2017/12/21 11:36:52.092 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-fg.capital.com.tw
+[6316] 2017/12/21 11:36:52.330 market(0)  Ready!
+[6316] 2017/12/21 11:36:52.373 market(4)  Ready!
+[6316] 2017/12/21 11:36:52.386 market(1)  Ready!
+[6316] 2017/12/21 11:36:52.386 market(2)  Ready!
+[6316] 2017/12/21 11:36:52.413 market(3)  Ready!
+[6316] 2017/12/21 11:36:53.598 Market Info is OK!
+[6316] 2017/12/21 11:36:53.807 Catalog info is OK!
+[6316] 2017/12/21 11:37:00.610 SKQuoteLib_GetKLine(0,TX00 )
+[6316] 2017/12/21 11:37:07.676 SKQuoteLib_GetKLine(3,TX00 )
+[6316] 2017/12/21 11:37:12.099  SKQuoteLib_RequestTicks ( 0 , TX00 )
+[6316] 2017/12/21 11:37:12.100 Return PageNo¡G 0 
+[6316] 2017/12/21 11:37:12.593 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:12.725 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:14.327 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:14.709 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:15.179 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:15.714 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:16.854 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:37:17.297 execute OnNotifyHistoryTicks event exception, please check it
+[6316] 2017/12/21 11:38:10.021 SKQuoteLib_LeaveMonitor() 
+[10248] 2017/12/21 12:19:29.940 SKQuoteLib_LeaveMonitor() 
+[13252] 2017/12/21 13:20:49.573 SKQuoteLib_LeaveMonitor() 
+[13252] 2017/12/21 13:20:51.066 -----------------------------------------------------------------
+[4664] 2017/12/21 13:26:18.343 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[4664] 2017/12/21 13:26:19.987 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[4664] 2017/12/21 13:26:22.751  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12636] 2017/12/21 13:29:47.701 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12636] 2017/12/21 13:29:49.194 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12636] 2017/12/21 13:29:50.990  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[7292] 2017/12/21 13:42:15.592 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[7292] 2017/12/21 13:42:17.289 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[7292] 2017/12/21 13:42:19.265  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12380] 2017/12/21 13:54:49.571 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12380] 2017/12/21 13:54:51.114 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12380] 2017/12/21 13:54:52.992  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[1332] 2017/12/21 14:03:38.860 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[1332] 2017/12/21 14:03:40.374 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[1332] 2017/12/21 14:03:42.300  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[5552] 2017/12/21 14:08:18.189 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[5552] 2017/12/21 14:08:19.781 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[5552] 2017/12/21 14:08:21.622  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[5552] 2017/12/21 14:08:22.800 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[5552] 2017/12/21 14:08:24.391 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[5552] 2017/12/21 14:08:25.301  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[1052] 2017/12/21 14:12:08.905 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[1052] 2017/12/21 14:12:10.431 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[1052] 2017/12/21 14:12:11.171  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[1052] 2017/12/21 14:12:11.387 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[1052] 2017/12/21 14:12:13.000 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[1052] 2017/12/21 14:12:13.902  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[13164] 2017/12/21 14:17:44.362 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[13164] 2017/12/21 14:17:46.651 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[13164] 2017/12/21 14:17:48.388  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[7668] 2017/12/21 14:25:20.624 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[7668] 2017/12/21 14:25:22.434 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[7668] 2017/12/21 14:25:24.279  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[11016] 2017/12/21 21:03:21.989 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[11016] 2017/12/21 21:03:23.527 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[11016] 2017/12/21 21:03:25.488  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12092] 2017/12/21 21:06:07.525 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12092] 2017/12/21 21:06:09.145 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12092] 2017/12/21 21:06:11.105  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12300] 2017/12/21 22:35:27.833 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12300] 2017/12/21 22:35:29.302 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12300] 2017/12/21 22:35:31.359  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12300] 2017/12/21 22:40:03.341 SKQuoteLib_LeaveMonitor() 
+[12300] 2017/12/21 22:40:05.023 -----------------------------------------------------------------
+[12428] 2017/12/21 22:41:39.996 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12428] 2017/12/21 22:41:42.099 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12428] 2017/12/21 22:41:44.013  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[5272] 2017/12/21 22:54:08.506 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[5272] 2017/12/21 22:54:10.051 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[5272] 2017/12/21 22:54:12.074  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[7608] 2017/12/21 22:57:38.535 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[7608] 2017/12/21 22:57:40.381 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[7608] 2017/12/21 22:57:42.708  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )
+[12972] 2017/12/21 22:59:39.269 SKQuoteLib_GetKLine(0,CME,ES_1803 )
+[12972] 2017/12/21 22:59:40.793 SKQuoteLib_GetKLine(3,CME,ES_1803 )
+[12972] 2017/12/21 23:01:25.916  SKQuoteLib_RequestTicks ( 0 , CME,ES_1803 )

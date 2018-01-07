@@ -1,0 +1,131 @@
+unit MainOrder;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, YuantaOrdLib_TLB, ActiveX, ComObj, Mask, JvExMask,
+  JvToolEdit, JvMaskEdit, JvCheckedMaskEdit, JvDatePickerEdit,
+  JvDBDatePickerEdit, ComCtrls, JvExComCtrls, JvDateTimePicker,
+  JvDBDateTimePicker, RzEdit, RzDTP, RzDBEdit;
+
+const SKQLib = 'Interop.YuantaOrdLib.dll';
+
+type
+ TDYuantaOrdEvents_CallBack = function(Func: integer): integer; stdcall;
+
+type
+//  TForm1 = class(TForm, _DYuantaOrd)
+  TForm1 = class(TForm)
+    btnLogin: TButton;
+    btnLogout: TButton;
+    edtUserID: TEdit;
+    edtPassWord: TEdit;
+    edtIP: TEdit;
+    JvDBDatePickerEdit1: TJvDBDatePickerEdit;
+    RzDateTimeEdit1: TRzDateTimeEdit;
+    RzDBDateTimeEdit1: TRzDBDateTimeEdit;
+
+    procedure OnLogonS_Get(ASender: TObject; TLinkStatus: Integer; const AccList: WideString;
+                                                   const Casq: WideString; const Cast: WideString);
+
+    procedure btnLoginClick(Sender: TObject);
+    procedure btnLogoutClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+
+  private
+   FEvents: _DYuantaOrdEvents;
+    { Private declarations }
+  public
+//    procedure EventSinkChanged(const EventSink: IUnknown); override;
+//    procedure Initialize; override;
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  ITest: TYuantaOrd;
+  ITestEvent: _DYuantaOrdEvents;
+  ITest1: _DYuantaOrd;
+
+  DYuantaOrdEvents_CallBack: TDYuantaOrdEvents_CallBack;
+  hSKQ: THandle = 0;
+
+  function On_Logon(TLinkStatus: Integer; const AccList: WideString; const Casq: WideString;
+                       const Cast: WideString): Integer; stdcall; export;
+
+implementation
+
+{$R *.dfm}
+{
+procedure TForm1.EventSinkChanged(const EventSink: IUnknown);
+begin
+  FEvents := EventSink as _DYuantaOrdEvents;
+end;
+
+procedure TForm1.Initialize;
+begin
+  OnActivate := ActivateEvent;
+  OnClick := ClickEvent;
+  OnCreate := CreateEvent;
+  OnDblClick := DblClickEvent;
+  OnDeactivate := DeactivateEvent;
+  OnDestroy := DestroyEvent;
+  OnKeyPress := KeyPressEvent;
+  OnPaint := PaintEvent;
+end;                     }
+
+procedure TForm1.FormCreate(Sender: TObject);
+var iSKQStatus: Integer;
+    ActiveObj: IUnknown;
+begin
+// GetActiveObject(CLASS_YuantaOrd, nil, ActiveObj);
+// InterfaceConnect(DIID__DYuantaOrdEvents, DIID__DYuantaOrdEvents
+ ITest:= TYuantaOrd.Create(Self);
+ ITest.OnLogonS:= OnLogonS_Get;
+  try
+    if hSKQ <> 0 then
+      FreeLibrary(hSKQ);
+    hSKQ := LoadLibrary(SKQLib);
+    if hSKQ <> 0 then
+     @DYuantaOrdEvents_CallBack := GetProcAddress(hSKQ, '_DYuantaOrdEvents_OnLogonSEventHandler');
+
+    if (@DYuantaOrdEvents_CallBack <> nil) then
+     iSKQStatus := iSKQStatus + DYuantaOrdEvents_CallBack(Integer(@On_Logon));
+  except
+    FreeLibrary(hSKQ);
+  end;
+end;
+
+procedure TForm1.btnLoginClick(Sender: TObject);
+var Int1: Integer;
+    Temp1, Temp2, Temp3: String;
+begin
+ ITest.SetFutOrdConnection(edtUserID.Text, edtPassWord.Text, 'api.yuantafutures.com.tw', 80);
+// OnLogonS_Get:= ITest.OnLogonS();
+end;
+
+procedure TForm1.btnLogoutClick(Sender: TObject);
+begin
+ ITest.DoLogout;
+end;
+
+procedure TForm1.OnLogonS_Get(ASender: TObject; TLinkStatus: Integer; const AccList: WideString;
+                                                   const Casq: WideString; const Cast: WideString);
+var T1, T2, T3: String;
+begin
+ ASender:= ITest;
+ T1:= AccList;
+ T2:= Casq;
+ T3:= Cast;
+end;
+
+function On_Logon(TLinkStatus: Integer; const AccList: WideString;
+                       const Casq: WideString; const Cast: WideString): Integer;
+var T1, T2, T3: String;
+begin
+ T1:= AccList;
+ T2:= Casq;
+ T3:= Cast;
+end;
+end.

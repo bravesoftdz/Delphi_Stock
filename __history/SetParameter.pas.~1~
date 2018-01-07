@@ -1,0 +1,84 @@
+unit SetParameter;
+
+interface
+
+uses Windows, Messages, SysUtils, Variants, Classes;
+
+procedure ParameterSetting(); // 砞﹚把计
+
+implementation
+
+uses PowerOnMain, Registry, RegistryGetSet;
+
+procedure ParameterSetting(); // 砞﹚把计, 肚患把计
+begin
+ // 砞﹚把计
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime', rdString, '08:41:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime2');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime2', rdString, '08:41:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime3');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime3', rdString, '08:41:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime4');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime4', rdString, '08:41:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime5');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime5', rdString, '08:41:00');
+ end;
+
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime', rdString, '00:00:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime2');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime2', rdString, '00:00:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime3');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime3', rdString, '00:00:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime4');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime4', rdString, '00:00:00');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime5');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime5', rdString, '00:00:00');
+ end;
+
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM', rdString, '');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM2');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM2', rdString, '');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM3');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM3', rdString, '');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM4');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM4', rdString, '');
+ end;
+ try GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM5');
+ except on e:Exception do SetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM5', rdString, '');
+ end;
+
+ // 弄砞﹚============================================================================
+ MsgForm.edtSetTime.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime');
+ MsgForm.edtSetTime2.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime2');
+ MsgForm.edtSetTime3.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime3');
+ MsgForm.edtSetTime4.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime4');
+ MsgForm.edtSetTime5.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtSetTime5');
+
+ MsgForm.edtCloseTime.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime');
+ MsgForm.edtCloseTime2.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime2');
+ MsgForm.edtCloseTime3.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime3');
+ MsgForm.edtCloseTime4.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime4');
+ MsgForm.edtCloseTime5.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtCloseTime5');
+
+ MsgForm.edtProgramNM.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM');
+ MsgForm.edtProgramNM2.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM2');
+ MsgForm.edtProgramNM3.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM3');
+ MsgForm.edtProgramNM4.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM4');
+ MsgForm.edtProgramNM5.Text:= GetRegistryData(HKEY_LOCAL_MACHINE, '\SOFTWARE\PowerControl', 'edtProgramNM5');
+
+end;
+end.

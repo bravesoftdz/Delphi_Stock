@@ -1,0 +1,2 @@
+.separator ","
+.import IndexTable_CME,ES_1712.Txt IndexTable

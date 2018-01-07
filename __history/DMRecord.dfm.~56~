@@ -1,0 +1,765 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 425
+  Width = 780
+  object asqDB_StockRecord: TASQLite3DB
+    TimeOut = 0
+    CharacterEncoding = 'UTF8'
+    Database = 'FutureParam.db3'
+    DefaultExt = '.db3'
+    Version = '3.7.4'
+    DriverDLL = 'sqlite3.dll'
+    Connected = True
+    MustExist = False
+    ExecuteInlineSQL = True
+    Left = 120
+    Top = 24
+  end
+  object asqQU_SN: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'Select * from RecordMsg')
+    Left = 32
+    Top = 168
+  end
+  object asqQU_TradeRecord: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'select * from TradeRecord')
+    UpdateSQL = asqUpSQL_TradeRecord
+    Left = 128
+    Top = 160
+    object asqQU_TradeRecordSN: TIntegerField
+      FieldName = 'SN'
+    end
+    object asqQU_TradeRecordStockNO: TStringField
+      FieldName = 'StockNO'
+      Size = 255
+    end
+    object asqQU_TradeRecordTradeDate: TDateField
+      FieldName = 'TradeDate'
+    end
+    object asqQU_TradeRecordTickTime: TTimeField
+      FieldName = 'TickTime'
+    end
+    object asqQU_TradeRecordBuyPrice: TFloatField
+      FieldName = 'BuyPrice'
+    end
+    object asqQU_TradeRecordSellPrice: TFloatField
+      FieldName = 'SellPrice'
+    end
+    object asqQU_TradeRecordTradePrice: TFloatField
+      FieldName = 'TradePrice'
+    end
+    object asqQU_TradeRecordQty: TIntegerField
+      FieldName = 'Qty'
+    end
+    object asqQU_TradeRecordAveP: TFloatField
+      FieldName = 'AveP'
+    end
+  end
+  object asqUpSQL_TradeRecord: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert into TradeRecord *')
+    UpdateSQL.Strings = (
+      'Update TradeRecord * ')
+    DeleteSQL.Strings = (
+      'Delete from TradeRecord where SN=:SN')
+    Left = 128
+    Top = 232
+  end
+  object dsTradeRecord: TDataSource
+    DataSet = asqQU_TradeRecord
+    Left = 128
+    Top = 288
+  end
+  object asqQU_Temp: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'select * from TradeRecord')
+    UpdateSQL = asqUpSQL_Temp
+    Left = 688
+    Top = 184
+  end
+  object asqUpSQL_Temp: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert into TradeRecord *')
+    UpdateSQL.Strings = (
+      'Update TradeRecord * where SN:=SN')
+    DeleteSQL.Strings = (
+      'Delete from TradeRecord where SN=:SN')
+    Left = 688
+    Top = 256
+  end
+  object dsTemp: TDataSource
+    DataSet = asqQU_Temp
+    Left = 688
+    Top = 312
+  end
+  object asqQU_Param: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'select * from Parameter')
+    UpdateSQL = asqUpSQL_Param
+    Left = 224
+    Top = 152
+    object asqQU_ParamSN: TIntegerField
+      FieldName = 'SN'
+    end
+    object asqQU_ParamModuleNM: TStringField
+      FieldName = 'ModuleNM'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_ParamDesc: TStringField
+      FieldName = 'Desc'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_ParamA1: TStringField
+      FieldName = 'A1'
+      Size = 255
+    end
+    object asqQU_ParamA2: TStringField
+      FieldName = 'A2'
+      Size = 255
+    end
+    object asqQU_ParamA2_1: TStringField
+      FieldName = 'A2_1'
+      Size = 255
+    end
+    object asqQU_ParamA2_1_1: TStringField
+      FieldName = 'A2_1_1'
+      Size = 255
+    end
+    object asqQU_ParamA2_3: TStringField
+      FieldName = 'A2_3'
+      Size = 255
+    end
+    object asqQU_ParamA2_3_1: TStringField
+      FieldName = 'A2_3_1'
+      Size = 255
+    end
+    object asqQU_ParamA2_5: TStringField
+      FieldName = 'A2_5'
+      Size = 255
+    end
+    object asqQU_ParamA2_5_1: TStringField
+      FieldName = 'A2_5_1'
+      Size = 255
+    end
+    object asqQU_ParamA3: TStringField
+      FieldName = 'A3'
+      Size = 255
+    end
+    object asqQU_ParamA3_1: TStringField
+      FieldName = 'A3_1'
+      Size = 255
+    end
+    object asqQU_ParamA4_1Check: TStringField
+      FieldName = 'A4_1Check'
+      Size = 255
+    end
+    object asqQU_ParamA4_23Check: TStringField
+      FieldName = 'A4_23Check'
+      Size = 255
+    end
+    object asqQU_ParamA4Radio: TStringField
+      FieldName = 'A4Radio'
+      Size = 255
+    end
+    object asqQU_ParamA4_1: TStringField
+      FieldName = 'A4_1'
+      Size = 255
+    end
+    object asqQU_ParamA4_2: TStringField
+      FieldName = 'A4_2'
+      Size = 255
+    end
+    object asqQU_ParamA4_2_1: TStringField
+      FieldName = 'A4_2_1'
+      Size = 255
+    end
+    object asqQU_ParamA4_2_2: TStringField
+      FieldName = 'A4_2_2'
+      Size = 255
+    end
+    object asqQU_ParamA4_3_1: TStringField
+      FieldName = 'A4_3_1'
+      Size = 255
+    end
+    object asqQU_ParamA4_3_2: TStringField
+      FieldName = 'A4_3_2'
+      Size = 255
+    end
+    object asqQU_ParamA5: TStringField
+      FieldName = 'A5'
+      Size = 255
+    end
+    object asqQU_ParamA5_1: TStringField
+      FieldName = 'A5_1'
+      Size = 255
+    end
+    object asqQU_ParamA6: TStringField
+      FieldName = 'A6'
+      Size = 255
+    end
+    object asqQU_ParamA7: TStringField
+      FieldName = 'A7'
+      Size = 255
+    end
+    object asqQU_ParamA7_1: TStringField
+      FieldName = 'A7_1'
+      Size = 255
+    end
+    object asqQU_ParamA8: TStringField
+      FieldName = 'A8'
+      Size = 255
+    end
+    object asqQU_ParamA8_1: TStringField
+      FieldName = 'A8_1'
+      Size = 255
+    end
+    object asqQU_ParamA9: TStringField
+      FieldName = 'A9'
+      Size = 255
+    end
+    object asqQU_ParamA9_1: TStringField
+      FieldName = 'A9_1'
+      Size = 255
+    end
+    object asqQU_ParamA11: TStringField
+      FieldName = 'A11'
+      Size = 255
+    end
+    object asqQU_ParamA11_Check: TStringField
+      FieldName = 'A11_Check'
+      Size = 255
+    end
+    object asqQU_ParamA13: TStringField
+      FieldName = 'A13'
+      Size = 255
+    end
+    object asqQU_ParamA13_1: TStringField
+      FieldName = 'A13_1'
+      Size = 255
+    end
+    object asqQU_ParamA13_Check: TStringField
+      FieldName = 'A13_Check'
+      Size = 255
+    end
+    object asqQU_ParamA14: TStringField
+      FieldName = 'A14'
+      Size = 255
+    end
+    object asqQU_ParamA14_Check: TStringField
+      FieldName = 'A14_Check'
+      Size = 255
+    end
+    object asqQU_ParamA15: TStringField
+      FieldName = 'A15'
+      Size = 255
+    end
+    object asqQU_ParamB_Open: TStringField
+      FieldName = 'B_Open'
+      Size = 255
+    end
+    object asqQU_ParamB1: TStringField
+      FieldName = 'B1'
+      Size = 255
+    end
+    object asqQU_ParamB2orB3: TStringField
+      FieldName = 'B2orB3'
+      Size = 255
+    end
+    object asqQU_ParamB2: TStringField
+      FieldName = 'B2'
+      Size = 255
+    end
+    object asqQU_ParamB2_1: TStringField
+      FieldName = 'B2_1'
+      Size = 255
+    end
+    object asqQU_ParamB3: TStringField
+      FieldName = 'B3'
+      Size = 255
+    end
+    object asqQU_ParamB5: TStringField
+      FieldName = 'B5'
+      Size = 255
+    end
+    object asqQU_ParamC_Open: TStringField
+      FieldName = 'C_Open'
+      Size = 255
+    end
+    object asqQU_ParamC1: TStringField
+      FieldName = 'C1'
+      Size = 255
+    end
+    object asqQU_ParamC1_1: TStringField
+      FieldName = 'C1_1'
+      Size = 255
+    end
+    object asqQU_ParamC2: TStringField
+      FieldName = 'C2'
+      Size = 255
+    end
+    object asqQU_ParamC3: TStringField
+      FieldName = 'C3'
+      Size = 255
+    end
+    object asqQU_ParamC4: TStringField
+      FieldName = 'C4'
+      Size = 255
+    end
+    object asqQU_ParamC5: TStringField
+      FieldName = 'C5'
+      Size = 255
+    end
+    object asqQU_ParamC7: TStringField
+      FieldName = 'C7'
+      Size = 255
+    end
+    object asqQU_ParamD_Open: TStringField
+      FieldName = 'D_Open'
+      Size = 255
+    end
+    object asqQU_ParamD1: TStringField
+      FieldName = 'D1'
+      Size = 255
+    end
+    object asqQU_ParamD1_1: TStringField
+      FieldName = 'D1_1'
+      Size = 255
+    end
+    object asqQU_ParamD2: TStringField
+      FieldName = 'D2'
+      Size = 255
+    end
+    object asqQU_ParamD3: TStringField
+      FieldName = 'D3'
+      Size = 255
+    end
+    object asqQU_ParamD3_1: TStringField
+      FieldName = 'D3_1'
+      Size = 255
+    end
+    object asqQU_ParamD4: TStringField
+      FieldName = 'D4'
+      Size = 255
+    end
+    object asqQU_ParamD4_1: TStringField
+      FieldName = 'D4_1'
+      Size = 255
+    end
+    object asqQU_ParamD5: TStringField
+      FieldName = 'D5'
+      Size = 255
+    end
+    object asqQU_ParamD6: TStringField
+      FieldName = 'D6'
+      Size = 255
+    end
+    object asqQU_ParamD6_A: TStringField
+      FieldName = 'D6_A'
+      Size = 255
+    end
+    object asqQU_ParamD6_1: TStringField
+      FieldName = 'D6_1'
+      Size = 255
+    end
+    object asqQU_ParamD7: TStringField
+      FieldName = 'D7'
+      Size = 255
+    end
+    object asqQU_ParamD8: TStringField
+      FieldName = 'D8'
+      Size = 255
+    end
+    object asqQU_ParamE_Open: TStringField
+      FieldName = 'E_Open'
+      Size = 255
+    end
+    object asqQU_ParamE1: TStringField
+      FieldName = 'E1'
+      Size = 255
+    end
+    object asqQU_ParamE3: TStringField
+      FieldName = 'E3'
+      Size = 255
+    end
+    object asqQU_ParamE5: TStringField
+      FieldName = 'E5'
+      Size = 255
+    end
+    object asqQU_ParamE7: TStringField
+      FieldName = 'E7'
+      Size = 255
+    end
+    object asqQU_ParamE8: TStringField
+      FieldName = 'E8'
+      Size = 255
+    end
+    object asqQU_ParamE9: TStringField
+      FieldName = 'E9'
+      Size = 255
+    end
+    object asqQU_ParamE11: TStringField
+      FieldName = 'E11'
+      Size = 255
+    end
+  end
+  object asqUpSQL_Param: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert into Parameter *')
+    UpdateSQL.Strings = (
+      'Update Parameter * where SN=:SN')
+    DeleteSQL.Strings = (
+      'Delete from Parameter where SN=:SN')
+    Left = 224
+    Top = 224
+  end
+  object dsParam: TDataSource
+    DataSet = asqQU_Param
+    Left = 224
+    Top = 280
+  end
+  object asqQU_Index: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'select * from IndexTable')
+    UpdateSQL = asqUpSQL_Index
+    Left = 304
+    Top = 176
+    object asqQU_IndexSN: TIntegerField
+      FieldName = 'SN'
+    end
+    object asqQU_IndexStockNO: TStringField
+      FieldName = 'StockNO'
+      Size = 255
+    end
+    object asqQU_IndexTradeDate: TDateField
+      FieldName = 'TradeDate'
+    end
+    object asqQU_IndexTradeTime: TTimeField
+      FieldName = 'TradeTime'
+    end
+    object asqQU_IndexP_Open: TFloatField
+      FieldName = 'P_Open'
+    end
+    object asqQU_IndexP_High: TFloatField
+      FieldName = 'P_High'
+    end
+    object asqQU_IndexP_Low: TFloatField
+      FieldName = 'P_Low'
+    end
+    object asqQU_IndexP_Close: TFloatField
+      FieldName = 'P_Close'
+    end
+    object asqQU_IndexTradeQty: TIntegerField
+      FieldName = 'TradeQty'
+    end
+    object asqQU_IndexAve_Price: TFloatField
+      FieldName = 'Ave_Price'
+    end
+    object asqQU_IndexRed: TStringField
+      FieldName = 'Red'
+      Size = 255
+    end
+  end
+  object asqUpSQL_Index: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert intoIndexTable *')
+    UpdateSQL.Strings = (
+      'Update IndexTable * ')
+    DeleteSQL.Strings = (
+      'Delete from IndexTable where SN=:SN')
+    Left = 304
+    Top = 248
+  end
+  object dsIndex: TDataSource
+    DataSet = asqQU_Index
+    Left = 304
+    Top = 304
+  end
+  object dsRecord: TDataSource
+    DataSet = asqQU_Record
+    Left = 376
+    Top = 280
+  end
+  object asqQU_Record: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'Select * from RecordMsg')
+    UpdateSQL = asqUpSQL_Record
+    Left = 376
+    Top = 152
+    object asqQU_RecordSN: TIntegerField
+      FieldName = 'SN'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+    end
+    object asqQU_RecordTradeDate: TStringField
+      DisplayLabel = #26085#26399
+      FieldName = 'TradeDate'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_RecordTradeTime: TTimeField
+      DisplayLabel = #26178#38291
+      FieldName = 'TradeTime'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+    end
+    object asqQU_RecordAccount: TStringField
+      DisplayLabel = #24115#34399
+      FieldName = 'Account'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_RecordStockNM: TStringField
+      DisplayLabel = #21830#21697
+      FieldName = 'StockNM'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_RecordBuySell: TStringField
+      DisplayLabel = #36023#36067
+      FieldName = 'BuySell'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_RecordCriteria: TStringField
+      DisplayLabel = #26781#20214
+      FieldName = 'Criteria'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_RecordPrice: TFloatField
+      DisplayLabel = #20729#26684
+      FieldName = 'Price'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+    end
+    object asqQU_RecordQty: TIntegerField
+      DisplayLabel = #21475#25976
+      FieldName = 'Qty'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+    end
+    object asqQU_RecordTradeSN: TStringField
+      DisplayLabel = #20132#26131#24207#34399
+      FieldName = 'TradeSN'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+    object asqQU_RecordMsg: TStringField
+      DisplayLabel = #35338#24687
+      FieldName = 'Msg'
+      OnGetText = asqQU_RecordSNGetText
+      OnSetText = asqQU_RecordSNSetText
+      Size = 255
+    end
+  end
+  object asqUpSQL_Record: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert into RecordMsg *')
+    UpdateSQL.Strings = (
+      'Update RecordMsg * ')
+    DeleteSQL.Strings = (
+      'Delete from RecordMsg where SN=:SN')
+    Left = 376
+    Top = 216
+  end
+  object asqQU_Figure: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    RawSQL = False
+    SQL.Strings = (
+      'select * from Figure')
+    UpdateSQL = asqUpSQL_Figure
+    Left = 464
+    Top = 176
+    object asqQU_FigureSN: TIntegerField
+      FieldName = 'SN'
+    end
+    object asqQU_FigureStockNO: TStringField
+      DisplayLabel = #29986#21697#20195#34399
+      FieldName = 'StockNO'
+      Size = 255
+    end
+    object asqQU_FigureTradeDate: TDateField
+      DisplayLabel = #20132#26131#26085#26399
+      FieldName = 'TradeDate'
+    end
+    object asqQU_FigureLast_Close: TStringField
+      DisplayLabel = #26152#26085#25910#30436#20729
+      FieldName = 'Last_Close'
+      Size = 255
+    end
+    object asqQU_FigureOpen_P: TStringField
+      DisplayLabel = #38283#30436#20729
+      FieldName = 'Open_P'
+      Size = 255
+    end
+    object asqQU_FigureP_Span: TStringField
+      DisplayLabel = #36264#21218#20540
+      FieldName = 'P_Span'
+      Size = 255
+    end
+    object asqQU_FigureNextUpDown: TStringField
+      DisplayLabel = #38548#22825#36264#21218
+      FieldName = 'NextUpDown'
+      Size = 255
+    end
+  end
+  object asqUpSQL_Figure: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert into Figure *')
+    UpdateSQL.Strings = (
+      'Update Figure * ')
+    DeleteSQL.Strings = (
+      'Delete from Figure where SN=:SN')
+    Left = 464
+    Top = 248
+  end
+  object dsFigure: TDataSource
+    DataSet = asqQU_Figure
+    Left = 464
+    Top = 304
+  end
+  object asq_StartEnd: TASQLite3Query
+    AutoCommit = False
+    SQLiteDateFormat = True
+    Connection = asqDB_StockRecord
+    MaxResults = 0
+    StartResult = 0
+    TypeLess = False
+    SQLCursor = True
+    ReadOnly = False
+    UniDirectional = False
+    Active = True
+    RawSQL = False
+    SQL.Strings = (
+      'select * from tbStartEnd')
+    UpdateSQL = asqUpSQL_StartEnd
+    Left = 560
+    Top = 176
+    object asq_StartEndSN: TIntegerField
+      FieldName = 'SN'
+    end
+    object asq_StartEndStockNO: TStringField
+      FieldName = 'StockNO'
+      Size = 255
+    end
+    object asq_StartEndStartTime: TStringField
+      FieldName = 'StartTime'
+      Size = 255
+    end
+    object asq_StartEndEndTime: TStringField
+      FieldName = 'EndTime'
+      Size = 255
+    end
+    object asq_StartEndEnable: TStringField
+      FieldName = 'Enable'
+      Size = 255
+    end
+    object asq_StartEndFlag: TStringField
+      FieldName = 'Flag'
+      Size = 255
+    end
+    object asq_StartEndBuySellQty: TIntegerField
+      FieldName = 'BuySellQty'
+    end
+    object asq_StartEndBuySellType: TStringField
+      FieldName = 'BuySellType'
+      Size = 255
+    end
+  end
+  object asqUpSQL_StartEnd: TASQLite3UpdateSQL
+    InsertSQL.Strings = (
+      'insert into tbStartEnd *')
+    UpdateSQL.Strings = (
+      'Update tbStartEnd * where SN=:SN'
+      '')
+    DeleteSQL.Strings = (
+      'Delete from tbStartEnd where SN=:SN')
+    Left = 560
+    Top = 248
+  end
+  object dsStartEnd: TDataSource
+    DataSet = asq_StartEnd
+    Left = 560
+    Top = 304
+  end
+end

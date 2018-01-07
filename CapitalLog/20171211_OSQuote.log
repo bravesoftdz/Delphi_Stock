@@ -1,0 +1,17 @@
+-----------------------------------------------------------------
+[15120] 2017/12/11 17:45:25.677 Connect Server: FORT14.capital.com.tw 443
+[15120] 2017/12/11 17:45:28.865 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[15120] 2017/12/11 17:45:29.727 OnConnect ( 3001 , 0 ) 
+[15120] 2017/12/11 17:45:35.168 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[15120] 2017/12/11 17:45:37.779 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[15120] 2017/12/11 17:45:40.129 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)
+[15120] 2017/12/11 17:45:40.595 execute OnNotifyHistoryTicks event exception, please check it
+[15120] 2017/12/11 17:45:40.689 execute OnNotifyHistoryTicks event exception, please check it
+[15120] 2017/12/11 17:45:40.775 execute OnNotifyHistoryTicks event exception, please check it
+[15120] 2017/12/11 17:45:40.812 execute OnNotifyHistoryTicks event exception, please check it
+[9584] 2017/12/11 17:58:01.492 Connect Server: FORT14.capital.com.tw 443
+[9584] 2017/12/11 17:58:04.989 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[9584] 2017/12/11 17:58:05.760 OnConnect ( 3001 , 0 ) 
+[9584] 2017/12/11 17:58:10.262 SKOSQuoteLib_RequestKLine (CME,ES_1712,0)
+[9584] 2017/12/11 17:58:12.289 SKOSQuoteLib_RequestKLine (CME,ES_1712,1)
+[9584] 2017/12/11 17:58:15.108 SKOSQuoteLib_RequestTicks (0,CME,ES_1712)

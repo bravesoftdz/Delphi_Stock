@@ -1,0 +1,17 @@
+-----------------------------------------------------------------
+[11324] 2017/12/22 09:13:43.887 CALL SKOrderLib_ReadCertByID(A122689579)
+[11324] 2017/12/22 09:13:44.552 OrderSendSign result:0
+[11324] 2017/12/22 09:13:47.605 GetOverseaCount( )
+[11324] 2017/12/22 09:14:14.684 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:2689.5 OrderNumerator:2689.5 Trigger:2689.5 TriggerNumerator:2689.5 
+[11324] 2017/12/22 09:17:17.118 -----------------------------------------------------------------
+[13572] 2017/12/22 10:38:09.186 CALL SKOrderLib_ReadCertByID(A122689579)
+[13572] 2017/12/22 10:38:10.678 OrderSendSign result:0
+[13572] 2017/12/22 10:38:13.713 GetOverseaCount( )
+[14312] 2017/12/22 12:06:21.192 CALL SKOrderLib_ReadCertByID(A122689579)
+[14312] 2017/12/22 12:06:21.648 OrderSendSign result:0
+[14312] 2017/12/22 12:06:24.752 GetOverseaCount( )
+[14312] 2017/12/22 12:07:26.036 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:2689.75 OrderNumerator:2689.75 Trigger:2689.75 TriggerNumerator:2689.75 
+[4136] 2017/12/22 12:08:05.724 CALL SKOrderLib_ReadCertByID(A122689579)
+[4136] 2017/12/22 12:08:06.140 OrderSendSign result:0
+[4136] 2017/12/22 12:08:08.929 GetOverseaCount( )
+[4136] 2017/12/22 12:08:35.039 ¡ySendOverseaFutureOrder¡z Account:F0200008847942 ExchangeNo:CME StockNo:ES YearMonth:201803 BuySell:0 NewClose:0 DayTrade:0 TradeType:0 SpecialTradeType:0 Qty:1 Order:2689.75 OrderNumerator: Trigger:2689.75 TriggerNumerator: 

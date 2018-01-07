@@ -1,0 +1,71 @@
+unit StockHandle;
+
+interface
+
+uses Classes, StdCtrls, SysUtils, DMRecord, Public_Variant;
+
+ procedure GetStockStartEndList(var cbbStockNO: TComboBox);
+ procedure GetStockStartEnd_Str(StockNO: String; var StartTime, EndTime: String);
+ procedure GetNowStock(var StockNO, BuySellQty: String);
+
+implementation
+
+procedure GetNowStock(var StockNO, BuySellQty: String);
+begin
+  DataModule1.asqQU_Temp.Close;
+  DataModule1.asqQU_Temp.SQL.Text:= 'select * from tbStartEnd '
+    + ' where Flag="1" ';
+  DataModule1.asqQU_Temp.Open;
+
+  DataModule1.asqQU_Temp.First;
+  if(DataModule1.asqQU_Temp.RecordCount > 0) then begin
+    StockNO:= DataModule1.asqQU_Temp.FieldByName('StockNO').AsString;
+//    StartTime:= DataModule1.asqQU_Temp.FieldByName('StartTime').AsString;
+//    EndTime:= DataModule1.asqQU_Temp.FieldByName('StartTime').AsString;
+    BuySellQty:= DataModule1.asqQU_Temp.FieldByName('BuySellQty').AsString;
+  end;
+end;
+
+
+procedure GetStockStartEndList(var cbbStockNO: TComboBox);
+var StockList: TStringList;
+    I : Integer;
+begin
+  StockList:= TStringList.Create;
+
+  StockList.Clear;
+  DataModule1.asqQU_Temp.Close;
+  DataModule1.asqQU_Temp.SQL.Text:= 'select StockNO from tbStartEnd '
+    + ' where Enable= "True" ';
+  DataModule1.asqQU_Temp.Open;
+
+  DataModule1.asqQU_Temp.First;
+  if DataModule1.asqQU_Temp.FieldByName('StockNO').Text <> '' then begin
+    for I := 0 to DataModule1.asqQU_Temp.RecordCount - 1 do begin
+      StockList.Add(DataModule1.asqQU_Temp.FieldByName('StockNO').Text + ',');
+      DataModule1.asqQU_Temp.Next;
+    end;
+  end;
+
+  cbbStockNO.Delimiter:= ',';
+  cbbStockNO.Text:= StockList.Text;
+  FreeAndNil(StockList);
+end;
+
+procedure GetStockStartEnd_Str(StockNO: String; var StartTime, EndTime: String);
+begin
+  DataModule1.asq_StartEnd.Close;
+  DataModule1.asq_StartEnd.SQL.Text:= 'select StartTime, EndTime from tbStartEnd '
+    + ' where StockNO="' + StockNO + '"';
+  DataModule1.asq_StartEnd.Open;
+
+  DataModule1.asq_StartEnd.First;
+  StartTime:= DataModule1.asq_StartEnd.FieldByName('StartTime').Text;
+  EndTime:= DataModule1.asq_StartEnd.FieldByName('StartTime').Text;
+
+  Public_Variant.StartTime:= StartTime;
+  Public_Variant.EndTime:= EndTime;
+
+end;
+
+end.
